@@ -1,0 +1,115 @@
+<div class="mcq">
+  <div class="topbar">
+    <span class="tag">MU-VARNA-MCQ</span>
+    <span class="spacer"></span>
+    <span class="mode">TEST MODE</span>
+  </div>
+
+  <div class="stem">{{Question}}</div>
+
+  <div id="correctKey" class="sr">{{Correct}}</div>
+
+  <form class="radioBox" id="mcqForm" onsubmit="return false;">
+    <label class="rOpt" data-letter="A">
+      <input type="radio" name="ans" value="A">
+      <span class="k">A</span><span class="t">{{OptionA}}</span>
+    </label>
+
+    <label class="rOpt" data-letter="B">
+      <input type="radio" name="ans" value="B">
+      <span class="k">B</span><span class="t">{{OptionB}}</span>
+    </label>
+
+    <label class="rOpt" data-letter="C">
+      <input type="radio" name="ans" value="C">
+      <span class="k">C</span><span class="t">{{OptionC}}</span>
+    </label>
+
+    <label class="rOpt" data-letter="D">
+      <input type="radio" name="ans" value="D">
+      <span class="k">D</span><span class="t">{{OptionD}}</span>
+    </label>
+
+{{#OptionE}}
+<label class="rOpt" data-letter="E">
+<input type="radio" name="ans" value="E">
+<span class="k">E</span><span class="t">{{OptionE}}</span>
+</label>
+{{/OptionE}}
+
+    <div class="actions">
+      <button type="button" class="btn" id="checkBtn">Check</button>
+      <span class="status" id="status"></span>
+    </div>
+	<div class="tag tagsRow"><b>TAGS:</b> {{Tags}}</div>
+  </form>
+</div>
+
+<script>
+(function() {
+  function normalizeCorrect(raw) {
+    raw = (raw || "").trim();
+    if (!raw) return "";
+    const c = raw[0].toUpperCase();
+    return ["A","B","C","D","E"].includes(c) ? c : "";
+  }
+
+  function showAnswer() {
+    // Desktop / iOS
+    if (typeof pycmd !== "undefined") { pycmd("ans"); return; }
+    // Some environments
+    if (typeof anki !== "undefined" && anki.showAnswer) { anki.showAnswer(); return; }
+    // Fallback: do nothing (user can still flip)
+  }
+
+  const correctRaw = document.getElementById("correctKey")?.textContent || "";
+  const correct = normalizeCorrect(correctRaw);
+
+  const form = document.getElementById("mcqForm");
+  const status = document.getElementById("status");
+  const checkBtn = document.getElementById("checkBtn");
+
+  function getSelected() {
+    const sel = form.querySelector('input[name="ans"]:checked');
+    return sel ? sel.value : "";
+  }
+
+  function clearMarks() {
+    form.querySelectorAll(".rOpt").forEach(l => l.classList.remove("pick","ok","no","true","dim"));
+    status.textContent = "";
+  }
+
+ form.addEventListener("change", function() {
+  clearMarks();
+  const chosen = getSelected();
+  if (!chosen) return;
+  try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
+  const label = form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt");
+  if (label) label.classList.add("pick");
+});
+
+  checkBtn.addEventListener("click", function() {
+    if (!correct) { status.textContent = "Correct key missing."; return; }
+    const chosen = getSelected();
+     
+    if (!chosen) { status.textContent = "Select an option first."; return; }
+    const chosenLabel = form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt");
+    const trueLabel = form.querySelector('input[value="'+correct+'"]')?.closest(".rOpt");
+
+    // Visual feedback briefly on the front
+    form.querySelectorAll(".rOpt").forEach(l => l.classList.add("dim"));
+    if (trueLabel) trueLabel.classList.remove("dim"), trueLabel.classList.add("true");
+    if (chosen === correct) {
+      if (chosenLabel) chosenLabel.classList.add("ok");
+      status.textContent = "Correct.";
+    } else {
+      if (chosenLabel) chosenLabel.classList.add("no");
+      status.textContent = "Wrong.";
+    }
+    try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
+
+    // Auto-flip shortly after feedback
+    setTimeout(showAnswer, 250);
+  });
+})();
+</script>

@@ -1,0 +1,1910 @@
+# https://www.youtube.com/watch?v=cm8IK24RRvA
+# https://www.youtube.com/watch?v=cATQFej6oAc
+1.
+In which of the following locations does hematopoiesis primarily occur during the 3rd to 6th month of pregnancy?
+
+A.
+Yolk sac
+
+Nicht ganz
+The yolk sac is the very first site of hematopoiesis, but it is active only in the earliest weeks of gestation, not the second trimester.
+
+B.
+Bone marrow
+
+C.
+Spleen
+
+D.
+Liver
+
+Richtige Antwort
+During the second trimester (hepatic phase), the liver is the major organ responsible for blood cell formation.
+
+
+2.
+Which of the following is the first site of hematopoiesis in the embryo?
+
+A.
+Thymus
+
+B.
+Liver
+
+C.
+Bone marrow
+
+D.
+Yolk sac
+
+Das stimmt.
+Hematopoiesis begins in the blood islands of the yolk sac wall during the first few weeks of development (mesoblastic phase).
+
+
+
+3.
+The specific cell type that marks the beginning of the erythropoietic line and is the first recognizable precursor of an erythrocyte is the:
+
+A.
+Erythrocyte
+
+B.
+Normoblast
+
+C.
+Reticulocyte
+
+D.
+Proerythroblast
+
+Das stimmt.
+The proerythroblast is the earliest morphologically recognizable cell committed specifically to the red blood cell lineage.
+
+
+5.
+Which cell is the immediate precursor to a mature red blood cell and still contains a network of ribosomal RNA?
+
+A.
+Myeloblast
+
+B.
+Megakaryocyte
+
+C.
+Erythroblast
+
+D.
+Reticulocyte
+
+Das stimmt.
+Reticulocytes are immature RBCs that have lost their nucleus but retain residual RNA, appearing as a reticular network.
+
+
+6.
+Which large polyploid cell found in the bone marrow is responsible for the production of blood platelets?
+
+A.
+Myeloblast
+
+B.
+Monoblast
+
+C.
+Lymphoblast
+
+D.
+Megakaryocyte
+
+Das stimmt.
+Megakaryocytes are giant cells with multi-lobed nuclei that fragment to release platelets into the circulation.
+
+
+7.
+In the process of granulopoiesis, specific (secondary) granules first appear in which stage?
+
+A.
+Promyelocyte
+
+B.
+Metamyelocyte
+
+C.
+Myeloblast
+
+Nicht ganz
+Myeloblasts are the earliest precursors and lack granules entirely.
+
+D.
+Myelocyte
+
+Richtige Antwort
+Differentiation into specific lineages (neutrophil, eosinophil, basophil) becomes visible at the myelocyte stage due to the appearance of specific granules.
+
+
+9.
+Which of the following organs is considered a 'primary' lymphoid organ where T-cell maturation occurs?
+
+A.
+Tonsils
+
+B.
+Lymph node
+
+C.
+Thymus
+
+Das stimmt.
+The thymus is the primary site where T-progenitors from the bone marrow migrate to mature into functional T-cells.
+
+D.
+Spleen
+
+
+10.
+Which hormone, primarily produced by the kidneys, stimulates the production of red blood cells?
+
+A.
+Thrombopoietin
+
+B.
+Insulin
+
+C.
+Leukopoietin
+
+D.
+Erythropoietin
+
+Das stimmt.
+Erythropoietin (EPO) acts on the bone marrow to stimulate the proliferation and differentiation of red blood cell precursors.
+
+
+1.
+Which of the following describes the correct chronological sequence of the 'phases' of prenatal hematopoiesis?
+
+A.
+Mesoblastic, Myeloid, Hepatic
+
+B.
+Myeloid, Mesoblastic, Hepatic
+
+Nicht ganz
+The myeloid phase is the final stage, not the first.
+
+C.
+Mesoblastic, Hepatic, Myeloid
+
+Richtige Antwort
+This sequence correctly identifies the shift from the yolk sac to the liver/spleen, and finally to the bone marrow.
+
+D.
+Hepatic, Mesoblastic, Myeloid
+# explanation here https://www.researchgate.net/figure/Timeline-of-fetal-hematopoiesis-Primitive-hematopoietic-cells-appear-in-the-yolk-sac-for_fig1_335238941
+
+
+2.
+In the development of erythrocytes, which stage is characterized by the first appearance of hemoglobin, resulting in a 'muddy' or grey-ish cytoplasm?
+
+A.
+Proerythroblast
+
+Nicht ganz
+This is the earliest stage and lacks visible hemoglobin accumulation.
+
+B.
+Basophilic erythroblast
+
+C.
+Orthochromatic erythroblast
+
+D.
+Polychromatophilic erythroblast
+
+Richtige Antwort
+The term 'polychromatophilic' refers to the multiple colors (purple/grey) present due to both ribosomes and newly synthesized hemoglobin.
+
+
+
+3.
+Which cellular change is a consistent feature of the maturation process for all granulocytes?
+
+A.
+Condensation and lobulation of the nucleus
+
+Richtige Antwort
+Maturation involves the nucleus changing from round/oval to indented, and eventually to a lobulated or segmented shape.
+
+B.
+Increase in nuclear volume
+
+C.
+Loss of all cytoplasmic granules
+
+D.
+Conversion of rough ER to smooth ER
+
+Nicht ganz
+The main changes involve granule production and nuclear shape, not a shift in ER type.
+
+
+
+5.
+Which of the following is the largest cell found in a normal bone marrow aspirate?
+
+A.
+Megakaryocyte
+
+Richtige Antwort
+Megakaryocytes can be up to 150 micrometers in diameter, making them the giants of the bone marrow.
+
+B.
+Monoblast
+
+C.
+Myelocyte
+
+D.
+Megakaryoblast
+
+Nicht ganz
+While large, the 'blast' stage is smaller than the final polyploid mature cell.
+
+
+6.
+What is the primary function of the 'Colony Stimulating Factors' (CSFs) in hematopoiesis?
+
+A.
+To destroy old red blood cells in the spleen
+
+B.
+To transport oxygen in the blood
+
+C.
+To regulate the differentiation and proliferation of specific lineages
+
+Das stimmt.
+CSFs are glycoproteins that act as signaling molecules to push stem cells toward specific white or red blood cell types.
+
+D.
+To trigger the extrusion of the nucleus from normoblasts
+
+
+7.
+During the development of a Neutrophil, at which stage does the cell stop being capable of mitosis?
+
+A.
+Promyelocyte
+
+B.
+Myelocyte
+
+Nicht ganz
+The myelocyte is the last stage capable of cell division in the granulocytic series.
+
+C.
+Myeloblast
+
+D.
+Metamyelocyte
+
+Richtige Antwort
+Once the cell reaches the metamyelocyte stage, it ceases division and focuses solely on morphological maturation.
+
+
+8.
+If a patient has a severe kidney disease, which aspect of hematopoiesis is most likely to be impaired?
+
+A.
+Granulopoiesis
+
+Nicht ganz
+Granulopoiesis is primarily regulated by CSFs and interleukins, not kidney-derived hormones.
+
+B.
+Lymphopoiesis
+
+C.
+Erythropoiesis
+
+Richtige Antwort
+The kidneys produce Erythropoietin (EPO), the primary stimulator for red blood cell production; kidney failure often leads to anemia.
+
+D.
+Thrombopoiesis
+
+
+9.
+Azurophilic granules (primary granules) are most abundant and most visible during which stage of granulopoiesis?
+
+A.
+Myeloblast
+
+B.
+Promyelocyte
+
+Richtige Antwort
+The promyelocyte is the stage where large, dark-staining azurophilic granules are actively produced and dominate the cytoplasm.
+
+C.
+Band cell
+
+Nicht ganz
+Primary granules are still present but are less prominent as the cell matures and dilutes them.
+
+D.
+Metamyelocyte
+
+
+10.
+The transition from a CFU-S (Colony Forming Unit-Spleen) to a committed Proerythroblast is stimulated by which factor?
+
+A.
+Histamine
+
+B.
+Erythropoietin
+
+Richtige Antwort
+EPO is the specific cytokine that drives committed progenitor cells into the erythroid pathway.
+
+C.
+Thrombopoietin
+
+D.
+Interleukin-1
+
+Nicht ganz
+IL-1 is a pro-inflammatory cytokine, not a specific erythroid differentiator.
+
+1.
+The cell that is the first recognizable precursor of the granulocytic series is the:
+
+A.
+Myeloblast
+
+Richtige Antwort
+The myeloblast is the earliest identifiable cell committed to the granulocytic lineage, characterized by a large nucleus and lack of granules.
+
+B.
+Myelocyte
+
+C.
+Promyelocyte
+
+Nicht ganz
+The promyelocyte is a later stage that has already begun developing primary granules.
+
+D.
+Metamyelocyte
+
+
+2.
+In which stage of erythropoiesis is the cell's cytoplasm strictly basophilic due to a high concentration of ribosomes?
+
+A.
+Proerythroblast
+
+B.
+Polychromatophilic erythroblast
+
+C.
+Basophilic erythroblast
+
+Das stimmt.
+As the name suggests, the cytoplasm is intensely basophilic because the cell is actively producing ribosomes for hemoglobin synthesis.
+
+D.
+Orthochromatic erythroblast
+
+
+3.
+The process by which platelets are formed from the cytoplasm of megakaryocytes is called:
+
+A.
+Granulopoiesis
+
+B.
+Erythropoiesis
+
+C.
+Thrombopoiesis
+
+Das stimmt.
+Thrombopoiesis involves the maturation of megakaryocytes and the subsequent fragmentation of their cytoplasm into platelets (thrombocytes).
+
+D.
+Monocytopoiesis
+
+
+4.
+Which of the following describes the nucleus of a Neutrophilic Myelocyte?
+
+A.
+Kidney-shaped
+
+B.
+Round or oval
+
+Richtige Antwort
+The myelocyte stage is defined by a nucleus that has not yet begun to indent, remaining round or slightly oval.
+
+C.
+C-shaped
+
+Nicht ganz
+A C-shaped or horseshoe-shaped nucleus is characteristic of a band cell.
+
+D.
+Segmented
+
+
+5.
+At which stage of erythropoiesis does the cell stop dividing?
+
+A.
+Orthochromatic erythroblast
+
+Richtige Antwort
+Also known as the normoblast, this cell has a pyknotic nucleus and has lost the ability to divide.
+
+B.
+Proerythroblast
+
+C.
+Basophilic erythroblast
+
+D.
+Polychromatophilic erythroblast
+
+Nicht ganz
+This is the final stage of erythropoiesis where the cell is still capable of mitosis.
+
+
+6.
+What is the primary characteristic of a 'Band cell' (Stab cell) in the granulocytic series?
+
+A.
+A horseshoe-shaped or non-segmented nucleus
+
+Das stimmt.
+Band cells have a distinct 'U' or 'C' shaped nucleus that has not yet developed the thin filaments seen in segmented cells.
+
+B.
+The presence of large azurophilic granules only
+
+C.
+The absence of cytoplasm
+
+D.
+A round nucleus with nucleoli
+
+
+7.
+Which of the following is responsible for the 'colony-forming' ability of hematopoietic stem cells?
+
+A.
+Antibodies
+
+B.
+Platelets
+
+C.
+Red blood cells
+
+D.
+Growth factors and cytokines
+
+Das stimmt.
+Molecules like IL-3, GM-CSF, and others stimulate stem cells to form specific colonies of blood cells.
+
+
+8.
+In the bone marrow, the 'hematopoietic cords' are separated by which type of blood vessel?
+
+A.
+Lymphatic vessels
+
+B.
+Arterioles
+
+C.
+Sinusoids
+
+Das stimmt.
+Sinusoids are wide, fenestrated capillaries where newly formed blood cells enter the circulation from the cords.
+
+D.
+Thick-walled veins
+
+
+9.
+The precursor cell that differentiates into a Monocyte is the:
+
+A.
+Megakaryoblast
+
+B.
+Myeloblast
+
+C.
+Promonocyte
+
+Das stimmt.
+The promonocyte is the immediate large precursor that matures into a monocyte after a few divisions.
+
+D.
+Lymphoblast
+
+
+10.
+Which cell in the granulocytic series is the first to contain both azurophilic and specific granules?
+
+A.
+Promyelocyte
+
+B.
+Metamyelocyte
+
+Nicht ganz
+While it contains both, it is not the first stage to do so; that happens earlier.
+
+C.
+Myelocyte
+
+Richtige Antwort
+The myelocyte is the stage where specific granules are synthesized and mixed with the existing primary granules.
+
+D.
+Myeloblast
+
+
+1.
+Which of the following describes the appearance of the nucleus in a Megakaryoblast?
+
+A.
+Extruded from the cell
+
+B.
+Round or ovoid with several nucleoli
+
+Das stimmt.
+As a 'blast' cell, it retains a primitive nucleus with visible nucleoli before the massive polyploidy of the mature stage occurs.
+
+C.
+Multi-lobed and giant
+
+D.
+Segmented into 3-5 lobes
+
+2.
+In the development of blood cells, which specific growth factor is responsible for stimulating the production of neutrophils, eosinophils, and basophils?
+
+A.
+Thrombopoietin
+
+B.
+Erythropoietin
+
+C.
+Granulocyte colony-stimulating factor (G-CSF)
+
+Das stimmt.
+G-CSF specifically targets the myeloid progenitor to differentiate into the granulocytic series.
+
+D.
+Interleukin-7
+
+
+
+3.
+The 'Shift to the Left' in a clinical blood count refers to an increased number of which cell type in the circulation?
+
+A.
+Band (Stab) Neutrophils
+
+Das stimmt.
+A 'shift to the left' indicates that the bone marrow is releasing immature precursors (like band cells) earlier than usual, often due to infection.
+
+B.
+Orthochromatic erythroblasts
+
+C.
+Reticulocytes
+
+D.
+Mature segmented neutrophils
+
+
+4.
+Which cell is the most mature stage of the erythrocytic series that still contains a nucleus?
+
+A.
+Reticulocyte
+
+Nicht ganz
+The reticulocyte has already lost its nucleus, though it retains some RNA.
+
+B.
+Orthochromatic erythroblast (Normoblast)
+
+Richtige Antwort
+This is the final stage with a nucleus; the nucleus becomes small and dense (pyknotic) before being ejected.
+
+C.
+Basophilic erythroblast
+
+D.
+Polychromatophilic erythroblast
+
+
+5.
+During granulopoiesis, the primary (azurophilic) granules are essentially what type of organelle?
+
+A.
+Ribosomes
+
+Nicht ganz
+Ribosomes are responsible for protein synthesis and are responsible for cytoplasmic basophilia, not the granular appearance.
+
+B.
+Mitochondria
+
+C.
+Lysosomes
+
+Richtige Antwort
+Primary granules contain acid hydrolases and myeloperoxidase, making them specialized lysosomes used for killing bacteria.
+
+D.
+Peroxisomes
+
+
+6.
+Which of the following is true regarding the division of Hematopoietic Stem Cells (HSCs)?
+
+A.
+They only divide when the body is under stress
+
+B.
+They divide symmetrically to produce two identical progenitor cells
+
+C.
+They undergo asymmetric division to maintain the stem cell pool
+
+Das stimmt.
+Asymmetric division allows one daughter cell to remain a stem cell (self-renewal) while the other differentiates.
+
+D.
+They lose their DNA during every division
+
+
+7.
+In a healthy adult, what is the primary site of hematopoiesis for all blood cell types?
+
+A.
+Yellow Bone Marrow
+
+B.
+Liver and Spleen
+
+C.
+Red Bone Marrow
+
+Das stimmt.
+In adults, the red bone marrow found in the axial skeleton and proximal ends of long bones is the only normal site of hematopoiesis.
+
+D.
+Thymus and Lymph nodes
+
+
+8.
+The time required for a myeloblast to mature into a segmented neutrophil in the bone marrow is approximately:
+
+A.
+3 months
+
+Nicht ganz
+This is closer to the lifespan of a red blood cell, not the development time of a neutrophil.
+
+B.
+24 hours
+
+C.
+1 hour
+
+D.
+10 to 14 days
+
+Richtige Antwort
+The entire process of granulopoiesis, from blast to mature cell, typically takes about two weeks.
+
+9.
+Which cell type in the bone marrow acts as a 'nurse cell' or 'macrophage island' to support erythropoiesis?
+
+A.
+Osteoblast
+
+B.
+Central Macrophage
+
+Das stimmt.
+Macrophages in erythropoietic islands provide iron to developing erythroblasts and phagocytize extruded nuclei.
+
+C.
+Adipocyte
+
+D.
+Reticular cell
+
+
+10.
+What happens to the total number of cell organelles (like mitochondria and ribosomes) as an erythrocyte matures?
+
+A.
+They are gradually lost to maximize space for hemoglobin
+
+Das stimmt.
+The hallmark of RBC maturation is the elimination of the nucleus and all organelles to accommodate maximum oxygen-carrying capacity.
+
+B.
+They stay the same throughout life
+
+C.
+They are converted into hemoglobin
+
+D.
+They increase to provide more energy
+
+1.
+Which of the following is the first stage in the granulocytic series that is incapable of cell division?
+
+A.
+Metamyelocyte
+
+Das stimmt.
+The metamyelocyte marks the beginning of the post-mitotic maturation phase, where the nucleus first shows a distinct indentation.
+
+B.
+Promyelocyte
+
+C.
+Myelocyte
+
+D.
+Band cell
+
+
+2.
+In the bone marrow, which cell type is responsible for producing the reticular fiber framework that supports hematopoietic cells?
+
+A.
+Osteoblasts
+
+B.
+Endothelial cells
+
+C.
+Macrophages
+
+D.
+Adventitial reticular cells
+
+Das stimmt.
+These fibroblastic cells provide structural support by synthesizing Type III collagen (reticulin) and cytokines.
+
+3.
+What is the primary function of the demarcation membrane system (DMS) in a mature Megakaryocyte?
+
+A.
+To house the cell's multiple nuclei
+
+B.
+To store calcium for muscle contraction
+
+C.
+To provide a reservoir of membrane for platelet formation
+
+Das stimmt.
+The DMS consists of extensive invaginations of the plasma membrane that will eventually define the boundaries of individual platelets.
+
+D.
+To synthesize hemoglobin
+
+
+4.
+Which morphological feature distinguishes a Monoblast from a Myeloblast?
+
+A.
+The Monoblast is much smaller
+
+B.
+They are morphologically virtually identical
+
+Richtige Antwort
+Under a standard light microscope, early blasts are so similar that they usually require special stains or markers to distinguish.
+
+C.
+Presence of specific granules
+
+D.
+The Myeloblast has a segmented nucleus
+
+Nicht ganz
+No blast has a segmented nucleus; that is a feature of mature terminal cells.
+
+
+5.
+The transformation of the nucleus from an open chromatin pattern to a dense, pyknotic state occurs in which erythroid stage?
+
+A.
+Orthochromatic erythroblast
+
+Das stimmt.
+This is the stage where chromatin condensation reaches its peak, resulting in a solid-looking, non-functional nucleus.
+
+B.
+Reticulocyte
+
+C.
+Proerythroblast
+
+D.
+Basophilic erythroblast
+
+
+6.
+Which of the following describes 'Extramedullary Hematopoiesis'?
+
+A.
+The movement of stem cells between different bones
+
+B.
+The destruction of red blood cells in the spleen
+
+C.
+Blood cell formation within the long bones
+
+D.
+Blood cell formation in organs like the liver and spleen in an adult
+
+Das stimmt.
+When the bone marrow fails, these organs can revert to their fetal hematopoietic function.
+
+
+7.
+How do newly formed blood cells move from the hematopoietic cords into the sinusoids?
+
+A.
+By squeezing through the endothelial wall (diapedesis)
+
+Das stimmt.
+Cells change shape and push through the thin lining of the sinusoids to enter the general circulation.
+
+B.
+By being swallowed by macrophages
+
+C.
+Through active transport pumps
+
+D.
+Through open 'valves' in the marrow veins
+
+8.
+Which of the following is a key feature of the 'Endosteal Niche' in the bone marrow?
+
+A.
+It lacks blood vessels entirely
+
+B.
+It is rich in mature red blood cells
+
+C.
+It is where rapid cell differentiation occurs
+
+D.
+It is the primary site for quiescent, self-renewing stem cells
+
+Das stimmt.
+The area near the bone surface (endosteum) provides a specialized environment for maintaining 'resting' stem cells.
+
+
+9.
+Which specific hormone is the primary regulator of Megakaryocyte maturation and platelet production?
+
+A.
+Thyroxine
+
+B.
+Erythropoietin
+
+C.
+Thrombopoietin
+
+Das stimmt.
+Primarily produced in the liver, this hormone stimulates the growth and fragmentation of megakaryocytes.
+
+D.
+Cortisol
+
+
+
+10.
+What is the final fate of the nucleus extruded from an orthochromatic erythroblast?
+
+A.
+It is phagocytosed by bone marrow macrophages
+
+Das stimmt.
+Macrophage 'nurse cells' immediately engulf and digest the ejected nuclei.
+
+B.
+It is recycled into a new red cell
+
+C.
+It dissolves in the plasma
+
+D.
+It develops into a lymphocyte
+
+
+2.
+In the process of erythropoiesis, what is the significance of the Polychromatophilic Erythroblast stage?
+
+A.
+It is the stage where the nucleus is extruded.
+
+B.
+It is the stage where specific granules first appear.
+
+C.
+It is the largest cell in the erythroid series.
+
+D.
+It is the first stage where hemoglobin and ribosomes are present simultaneously.
+
+Das stimmt.
+The mixture of basic-staining ribosomes and acid-staining hemoglobin creates the characteristic multi-colored (polychromatic) appearance.
+
+1.
+Which of the following describes the 'Mesoblastic Phase' of hematopoiesis?
+
+A.
+The onset of leukocyte production in the bone marrow.
+
+B.
+The development of blood islands in the wall of the yolk sac.
+
+Richtige Antwort
+This is the very first stage of hematopoiesis, occurring extra-embryonically in the early weeks of gestation.
+
+C.
+The colonization of the fetal liver by stem cells.
+
+Nicht ganz
+This describes the Hepatic phase, which succeeds the Mesoblastic phase.
+
+D.
+The maturation of T-lymphocytes in the thymus.
+
+1.
+Which of the following cells is the first morphologically recognizable precursor in the erythroid series?
+
+A.
+Myeloblast
+
+Nicht ganz
+This is the first recognizable precursor for the granulocytic series (white blood cells), not the erythroid series.
+
+B.
+Erythroblast
+
+C.
+Reticulocyte
+
+D.
+Proerythroblast
+
+Richtige Antwort
+This is the earliest stage in the erythroid lineage that can be identified by light microscopy, characterized by a large nucleus and basophilic cytoplasm.
+
+
+3.
+What is the main site of postnatal (after birth) hemopoiesis?
+
+A.
+Spleen
+
+B.
+Liver
+
+C.
+Yellow bone marrow
+
+D.
+Red bone marrow
+
+Das stimmt.
+After birth, hematopoiesis primarily occurs in the red marrow found in the spaces of spongy bone.
+
+
+4.
+The hormone erythropoietin (EPO) primarily stimulates the production of:
+
+A.
+Erythrocytes
+
+Das stimmt.
+EPO specifically targets erythroid progenitors (CFU-E) to promote survival and differentiation into red blood cells.
+
+B.
+Lymphocytes
+
+C.
+Platelets
+
+D.
+Granulocytes
+
+
+5.
+Which of the following is an immature erythrocyte that has lost its nucleus but still contains ribosomal RNA?
+
+A.
+Polychromatophilic erythroblast
+
+B.
+Reticulocyte
+
+Das stimmt.
+This cell has extruded its nucleus but retains a network (reticulum) of rRNA, which stains blue with supravital stains.
+
+C.
+Basophilic erythroblast
+
+D.
+Orthochromatophilic erythroblast
+
+
+6.
+Granulopoiesis is the process of formation of:
+
+A.
+Neutrophils, Eosinophils, and Basophils
+
+Das stimmt.
+These three cell types contain specific granules in their cytoplasm and are collectively known as granulocytes.
+
+B.
+Erythrocytes and Platelets
+
+C.
+B and T Lymphocytes
+
+D.
+Monocytes and Macrophages
+
+
+7.
+Which cell stage in granulopoiesis is the first to show specific (secondary) granules?
+
+A.
+Myelocyte
+
+Richtige Antwort
+The appearance of specific granules (neutrophilic, eosinophilic, or basophilic) defines the transition to the myelocyte stage.
+
+B.
+Myeloblast
+
+C.
+Promyelocyte
+
+D.
+Metamyelocyte
+
+Nicht ganz
+This is a later stage where the nucleus begins to indent; specific granules are already present.
+
+
+
+8.
+Thrombopoietin is the primary regulator for the formation of:
+
+A.
+White blood cells
+
+B.
+Red blood cells
+
+C.
+Platelets
+
+Das stimmt.
+Thrombopoietin stimulates the proliferation and maturation of megakaryocytes to produce thrombocytes (platelets).
+
+D.
+Plasma cells
+
+9.
+The "local fuel" or supportive environment for hematopoiesis in the bone marrow is often associated with:
+
+A.
+Osteocytes
+
+B.
+Nerve cells
+
+C.
+Chondrocytes
+
+D.
+Fat cells/Adipocytes
+
+Das stimmt.
+Adipocytes in the marrow provide energy reserves and secrete cytokines that support the hematopoietic microenvironment.
+
+
+10.
+Which of the following describes the correct sequence of erythropoiesis?
+
+A.
+Monoblast → Promonocyte → Monocyte
+
+B.
+Megakaryoblast → Megakaryocyte → Platelets
+
+C.
+Proerythroblast → Basophilic → Polychromatophilic → Orthochromatophilic → Reticulocyte
+
+Richtige Antwort
+This sequence correctly tracks the maturation from the earliest precursor through changes in cytoplasmic staining and nuclear extrusion.
+
+D.
+Myeloblast → Promyelocyte → Myelocyte → Metamyelocyte
+
+Nicht ganz
+This is the correct sequence for Granulopoiesis (WBCs), not Erythropoiesis.
+
+
+
+1.
+Which of the following describes the correct sequence of granulopoiesis?
+
+A.
+Myeloblast → Myelocyte → Promyelocyte → Metamyelocyte
+
+B.
+Myeloblast → Promyelocyte → Myelocyte → Metamyelocyte → Band cell → Mature granulocyte
+
+Das stimmt.
+This correctly tracks the progression from the earliest blastic stage through the development of primary and then specific granules.
+
+C.
+Proerythroblast → Myelocyte → Metamyelocyte → Granulocyte
+
+D.
+Promyelocyte → Myeloblast → Metamyelocyte → Myelocyte
+
+
+2.
+Which cell stage is characterized by the presence of a kidney-shaped (indented) nucleus and is no longer capable of mitosis?
+
+A.
+Myelocyte
+
+B.
+Promyelocyte
+
+Nicht ganz
+This stage has a large round nucleus and primary granules; it is actively mitotic.
+
+C.
+Band cell
+
+D.
+Metamyelocyte
+
+Richtige Antwort
+In this stage, the nucleus clearly indents and the cell loses its ability to divide, marking a committed step toward maturation.
+
+
+3.
+In the process of erythropoiesis, at which stage is the nucleus finally extruded?
+
+A.
+Orthochromatophilic erythroblast
+
+Das stimmt.
+Also known as the normoblast, this is the final nucleated stage before the nucleus is expelled to form a reticulocyte.
+
+B.
+Reticulocyte
+
+C.
+Polychromatophilic erythroblast
+
+D.
+Basophilic erythroblast
+
+
+5.
+What happens to the cytoplasm staining as an erythrocyte matures from a Proerythroblast to an Erythrocyte?
+
+A.
+Becomes progressively more granular
+
+B.
+Remains constant throughout
+
+C.
+Changes from basophilic to acidophilic
+
+Das stimmt.
+Staining shifts from blue (due to ribosomes) to pink/red (due to the accumulation of acidophilic hemoglobin).
+
+D.
+Changes from acidophilic to basophilic
+
+6.
+Which cell is the precursor for the Monocyte?
+
+A.
+Myeloblast
+
+B.
+Lymphoblast
+
+C.
+Megakaryoblast
+
+D.
+Monoblast
+
+Das stimmt.
+The monoblast is the earliest committed progenitor in the monocytic lineage.
+
+
+7.
+During hemopoiesis, the process of 'shifting to the left' usually refers to an increase in:
+
+A.
+Small lymphocytes
+
+B.
+Mature erythrocytes
+
+C.
+Hypersegmented neutrophils
+
+Nicht ganz
+Hypersegmentation is a 'right shift', often associated with Vitamin B12 or folate deficiency.
+
+D.
+Immature neutrophils (Band cells)
+
+Richtige Antwort
+A 'left shift' indicates that the bone marrow is releasing younger cells, usually in response to an acute infection.
+
+8.
+Where does the 'de-nucleation' or nuclear extrusion of the erythroblast occur?
+
+A.
+In the circulating blood
+
+B.
+In the spleen
+
+C.
+In the bone marrow
+
+Das stimmt.
+The nucleus is expelled while the cell is still in the marrow stroma; the resulting reticulocyte then enters the blood.
+
+D.
+In the lungs
+
+
+
+9.
+Which organ is the primary site of hemopoiesis during the 3rd to 7th month of fetal development?
+
+A.
+Thymus
+
+B.
+Yolk sac
+
+C.
+Kidney
+
+D.
+Liver
+
+Das stimmt.
+The liver acts as the main hematopoietic organ during the middle of fetal life, before the bone marrow takes over.
+
+
+10.
+Megakaryocytes release platelets by a process of:
+
+A.
+Simple cell division
+
+B.
+Proplatelet process fragmentation
+
+Das stimmt.
+The megakaryocyte extends long branching processes into sinusoids, which then fragment into individual platelets.
+
+C.
+Apoptosis of the whole cell
+
+D.
+Exocytosis of granules
+
+
+1.
+Which specific enzyme is a characteristic marker for the primary (azurophilic) granules of neutrophils?
+
+A.
+Alkaline phosphatase
+
+B.
+Myeloperoxidase
+
+Richtige Antwort
+Myeloperoxidase is the major enzyme in primary granules and is used as a diagnostic marker for the myeloid lineage.
+
+C.
+Histaminase
+
+Nicht ganz
+Histaminase is more specifically associated with the granules of eosinophils to neutralize histamine.
+
+D.
+Heparin
+
+
+
+2.
+What is the primary function of the 'nurse cells' (macrophages) found in the erythroblastic islands of the bone marrow?
+
+A.
+Synthesizing erythropoietin
+
+B.
+Fragmenting megakaryocytes
+
+C.
+Phagocytosing extruded nuclei and providing iron
+
+Das stimmt.
+Macrophages sit at the center of erythroblastic islands to recycle iron and clean up nuclei expelled by maturing red cells.
+
+D.
+Producing collagen for the stroma
+
+
+3.
+Which blood cell contains large, coarse granules that stain intensely with basic dyes (like methylene blue) and often obscure the nucleus?
+
+A.
+Monocyte
+
+B.
+Neutrophil
+
+Nicht ganz
+Neutrophils have very fine, neutral-staining granules that do not obscure their multi-lobed nuclei.
+
+C.
+Eosinophil
+
+D.
+Basophil
+
+Richtige Antwort
+Basophils are characterized by large, dark blue/purple granules containing histamine and heparin that often hide the lobulated nucleus.
+
+
+4.
+The 'Howell-Jolly bodies' sometimes seen in red blood cells are remnants of:
+
+A.
+Nuclear DNA
+
+Richtige Antwort
+These are small round inclusions of nuclear material that remain if the nucleus wasn't completely or properly extruded.
+
+B.
+Iron deposits
+
+Nicht ganz
+Iron deposits in RBCs are known as Pappenheimer bodies, which are distinct from nuclear remnants.
+
+C.
+Mitochondria
+
+D.
+Ribosomal RNA
+
+5.
+Which of the following describes the 'Marginal Zone' in the context of neutrophil distribution?
+
+A.
+The area where platelets are produced
+
+B.
+The outer layer of the bone marrow
+
+Nicht ganz
+The marrow is organized into cord and sinusoid systems, but the marginal zone usually refers to blood vessel distribution.
+
+C.
+Neutrophils adhering to the endothelium of small vessels
+
+Richtige Antwort
+A large portion of neutrophils is 'parked' along the vessel walls (marginal pool) and can be mobilized quickly into the circulating pool.
+
+D.
+The region where T-cells mature in the thymus
+
+
+6.
+During erythropoiesis, what is the primary reason for the shift from basophilia to polychromatophilia?
+
+A.
+The fragmentation of the nucleus
+
+Nicht ganz
+The nucleus becomes smaller and denser (pyknotic), but it does not determine the color of the cytoplasm.
+
+B.
+The disappearance of the Golgi apparatus
+
+C.
+Absorption of dyes from the marrow stroma
+
+D.
+Simultaneous presence of ribosomes and hemoglobin
+
+Richtige Antwort
+Basophilia (blue) comes from ribosomes, and acidophilia (pink) comes from hemoglobin; the mix creates a gray/purple 'polychromatic' look.
+
+7.
+Which cell type is considered the 'common ancestor' for all blood cell lines?
+
+A.
+Myeloblast
+
+Nicht ganz
+This is a restricted precursor cell already committed to becoming a granulocyte.
+
+B.
+Pluripotent hematopoietic stem cell (PHSC)
+
+Richtige Antwort
+The PHSC (or hemocytoblast) is the undifferentiated cell capable of giving rise to all myeloid and lymphoid lineages.
+
+C.
+Common Myeloid Progenitor (CMP)
+
+D.
+Reticular cell
+
+
+8.
+What is the primary role of the sinusoids in the red bone marrow?
+
+A.
+Storing calcium for bone mineralization
+
+B.
+Providing a surface for osteoblast attachment
+
+C.
+Allowing mature blood cells to enter the circulation
+
+Das stimmt.
+Sinusoids are specialized wide capillaries with discontinuous endothelium that allow new cells to migrate from the marrow cords into the blood.
+
+D.
+Filtering out old red blood cells
+
+
+9.
+A cell with a 'horseshoe' or 'C-shaped' nucleus in the granulocytic series is known as a:
+
+A.
+Promyelocyte
+
+Nicht ganz
+The promyelocyte has a large, round, pale nucleus with visible nucleoli.
+
+B.
+Band cell
+
+Richtige Antwort
+The band (or stab) cell represents the stage just before full segmentation of the nucleus into lobes.
+
+C.
+Metamyelocyte
+
+D.
+Myelocyte
+
+10.
+Which cytokine is essential for the differentiation of progenitor cells into the Eosinophil lineage?
+
+A.
+Erythropoietin
+
+Nicht ganz
+This is the growth factor for red blood cells.
+
+B.
+Interleukin-7 (IL-7)
+
+C.
+Interleukin-5 (IL-5)
+
+Richtige Antwort
+IL-5 is the specific growth factor required for the production and activation of eosinophils.
+
+D.
+G-CSF
+
+
+1.
+Which of the following is the specific marker enzyme found in the secondary granules of neutrophils?
+
+A.
+Alkaline phosphatase
+
+Richtige Antwort
+Secondary granules, also known as specific granules, are characterized by the presence of alkaline phosphatase and lactoferrin.
+
+B.
+Myeloperoxidase
+
+Nicht ganz
+This enzyme is a marker for primary (azurophilic) granules, which appear earlier in granulopoiesis.
+
+C.
+Lysozyme
+
+D.
+Major Basic Protein
+
+
+2.
+Which cell in the granulocytic series is the last one capable of undergoing mitosis?
+
+A.
+Myelocyte
+
+Richtige Antwort
+The myelocyte stage is the final point in granulopoiesis where cell division can occur before the cell begins terminal differentiation.
+
+B.
+Promyelocyte
+
+Nicht ganz
+This is an early, highly mitotic stage, but it is followed by the myelocyte which also divides.
+
+C.
+Metamyelocyte
+
+D.
+Band cell
+
+
+3.
+The granules of which blood cell contain Heparin, Histamine, and SRS-A (Slow-reacting substance of anaphylaxis)?
+
+A.
+Monocyte
+
+B.
+Eosinophil
+
+Nicht ganz
+Eosinophils contain enzymes like histaminase to break down histamine, rather than histamine itself.
+
+C.
+Basophil
+
+Richtige Antwort
+Basophils contain these vasoactive substances in their large, metachromatic granules, playing a key role in allergic reactions.
+
+D.
+Neutrophil
+
+4.
+What morphological change is most characteristic of the 'Pyknotic' nucleus in an Orthochromatophilic erythroblast?
+
+A.
+Fragmentation into several distinct lobes
+
+B.
+Dense, shrunken, and darkly staining chromatin
+
+Das stimmt.
+Pyknosis describes the irreversible condensation of chromatin in the nucleus of a cell undergoing necrosis or apoptosis, or in this case, expulsion.
+
+C.
+Pale staining with fine, lacy chromatin
+
+D.
+Presence of multiple visible nucleoli
+
+5.
+Which component of the bone marrow stroma produces the reticular fibers (Type III Collagen) that support hematopoietic cells?
+
+A.
+Macrophages
+
+B.
+Adipocytes
+
+C.
+Endothelial cells
+
+D.
+Adventitial reticular cells
+
+Das stimmt.
+These fibroblastic cells provide the structural scaffolding of the marrow and also secrete growth factors to support stem cells.
+
+6.
+Which blood cell is typically the first to arrive at a site of acute bacterial infection?
+
+A.
+Basophil
+
+B.
+Monocyte
+
+C.
+Neutrophil
+
+Richtige Antwort
+Neutrophils are the most abundant white blood cells and are specialized for rapid response to bacterial pathogens.
+
+D.
+Lymphocyte
+
+Nicht ganz
+Lymphocytes are more characteristic of viral infections or chronic inflammatory responses.
+
+7.
+In a Romanowsky stain (like Giemsa or Wright), the 'Azurophilic' granules appear what color?
+
+A.
+Clear/Transparent
+
+B.
+Purple/Red
+
+Das stimmt.
+Azurophilic granules are primary lysosomes that take up the azure component of the stain, appearing purple or reddish-purple.
+
+C.
+Deep Black
+
+D.
+Bright Orange
+
+8.
+Which hormone produced by the liver increases in response to inflammation and blocks iron release from macrophages?
+
+A.
+Hepcidin
+
+Richtige Antwort
+Hepcidin is the master regulator of iron; high levels block ferroportin, trapping iron in macrophages and inhibiting erythropoiesis.
+
+B.
+Thrombopoietin
+
+Nicht ganz
+This hormone regulates platelet production, not iron metabolism.
+
+C.
+Ferritin
+
+D.
+Transferrin
+
+
+9.
+A 'Shift to the Right' in a blood smear usually describes an increase in which type of cells?
+
+A.
+Band cells
+
+B.
+Atypical Lymphocytes
+
+Nicht ganz
+These are common in viral infections like Mononucleosis but are not part of the 'left/right shift' nomenclature.
+
+C.
+Reticulocytes
+
+D.
+Hypersegmented Neutrophils
+
+Richtige Antwort
+A 'right shift' refers to the presence of older neutrophils with more than 5 nuclear lobes, often due to megaloblastic anemias.
+
+10.
+What is the primary site of T-lymphocyte differentiation and selection?
+
+A.
+Bone marrow
+
+B.
+Thymus
+
+Das stimmt.
+While they originate in the bone marrow, T-cells must migrate to the thymus to undergo maturation and MHC restriction.
+
+C.
+Spleen
+
+D.
+Lymph nodes
+
+12.
+During erythropoiesis, what causes the 'Basophilic' color of the early erythroblast cytoplasm?
+
+A.
+High concentration of polyribosomes
+
+Richtige Antwort
+The cell is mass-producing ribosomes to prepare for the massive synthesis of hemoglobin proteins.
+
+B.
+Accumulation of iron-rich ferritin
+
+C.
+Phagocytosis of blue dyes
+
+D.
+Presence of residual DNA fragments
+
+Nicht ganz
+DNA is contained within the nucleus; the cytoplasmic basophilia is due to RNA in ribosomes.
+
+13.
+Which of the following is true regarding the Platelet Demarcation Channels in megakaryocytes?
+
+A.
+They are invaginations of the plasma membrane that define future platelet boundaries
+
+Das stimmt.
+This extensive membrane system allows the giant cell to pre-partition its cytoplasm before fragmentation.
+
+B.
+They are purely mitochondrial structures
+
+C.
+They represent the tracks for nuclear extrusion
+
+D.
+They are the sites where hemoglobin is synthesized
+
+14.
+Which cell type in the bone marrow is most likely to be found directly adjacent to the endosteum of the bone?
+
+A.
+Hematopoietic stem cells (the 'Endosteal Niche')
+
+Das stimmt.
+Quiescent stem cells are often located in the endosteal niche, near the bone surface, while actively differentiating cells move toward the sinusoids.
+
+B.
+Plasma cells
+
+C.
+Megakaryocytes
+
+D.
+Mature Erythrocytes
+
+15.
+The conversion of Yellow Bone Marrow back into Red Bone Marrow in response to severe anemia is an example of:
+
+A.
+Malignant transformation
+
+B.
+Atrophy
+
+C.
+Irreversible fibrosis
+
+D.
+Reversible transformation (Compensatory hematopoiesis)
+
+Das stimmt.
+Under stress, adipocytes can be replaced by active hematopoietic tissue to increase blood cell production.
+
+16.
+Which organelle is notably absent in mature human erythrocytes?
+
+A.
+Plasma membrane
+
+B.
+Cytoskeleton
+
+C.
+Hemoglobin
+
+D.
+Mitochondria
+
+Das stimmt.
+Mature RBCs lack mitochondria and rely exclusively on anaerobic glycolysis for energy to prevent consuming the oxygen they transport.
+
+17.
+The 'Specific Granules' of neutrophils contain which of the following substances to help fight bacteria?
+
+A.
+Histamine
+
+B.
+Lactoferrin
+
+Richtige Antwort
+Lactoferrin sequesters iron, preventing bacteria from using it for their own growth and metabolism.
+
+C.
+Major Basic Protein
+
+D.
+Perforin
+
+Nicht ganz
+Perforin is used by Natural Killer cells and T-cells to punch holes in target membranes.
+
+18.
+In the 'Stab' or Band cell stage, what is the shape of the nucleus?
+
+A.
+Multi-segmented with 3 to 5 distinct lobes
+
+Nicht ganz
+This describes the fully mature polymorphonuclear neutrophil.
+
+B.
+Perfectly spherical and central
+
+C.
+Kidney-shaped with a slight indentation
+
+D.
+Elongated, non-segmented, and curved
+
+Richtige Antwort
+The band cell nucleus is thin and curved (like a sausage or C-shape) but has not yet developed the deep constrictions that create lobes.
+
+19.
+What is the primary function of Platelets (Thrombocytes)?
+
+A.
+Phagocytosis of cellular debris
+
+B.
+Transporting oxygen to peripheral tissues
+
+C.
+Producing antibodies against antigens
+
+D.
+Formation of a primary hemostatic plug
+
+Das stimmt.
+Platelets adhere to damaged vessel walls and aggregate to form a temporary plug to stop bleeding.

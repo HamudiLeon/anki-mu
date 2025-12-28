@@ -1,0 +1,151 @@
+<div class="mcq">
+  <div class="topbar">
+     <span class="tag">MU-VARNA-MCQ</span>
+    <span class="spacer"></span>
+    <span class="mode">ANSWER</span>
+  </div>
+
+  <div class="stem">{{Question}}</div>
+
+  <div id="correctKeyBack" class="sr">{{Correct}}</div>
+
+  <div class="opts" id="optsBack"> <div class="opt" data-letter="A"><span class="k">A</span><span class="t">{{OptionA}}</span></div>
+    <div class="opt" data-letter="B"><span class="k">B</span><span class="t">{{OptionB}}</span></div>
+    <div class="opt" data-letter="C"><span class="k">C</span><span class="t">{{OptionC}}</span></div>
+    <div class="opt" data-letter="D"><span class="k">D</span><span class="t">{{OptionD}}</span></div>
+{{#OptionE}}
+<label class="rOpt" data-letter="E">
+<input type="radio" name="ans" value="E">
+<span class="k">E</span><span class="t">{{OptionE}}</span>
+</label>
+{{/OptionE}}
+  </div>
+
+ <div class="answerBar">
+  <span class="lbl">Correct</span>
+  <span class="val" id="correctTextBack"></span>
+</div>
+		
+
+ <div class="why" id="whyBack"></div>
+<div class="tag tagsRow"><b>TAGS:</b> {{Tags}}</div>
+
+<div class="sr" id="whyRaw">{{Explanation}}</div>
+
+<script>
+(function(){
+  // Convert raw explanation text into clean HTML:
+  // - preserves line breaks as paragraphs
+  // - converts bullet-like lines to <ul><li>
+  const raw = (document.getElementById("whyRaw")?.innerHTML || "").trim();
+
+  // If your Explanation already contains HTML <p>/<ul>, keep it as-is
+  const looksLikeHtml = /<\/?(p|ul|li|br|div|strong|b|em|span)\b/i.test(raw);
+
+  const out = document.getElementById("whyBack");
+  if (!out) return;
+
+  if (looksLikeHtml) {
+    out.innerHTML = raw;
+    return;
+  }
+
+  // Otherwise, treat as plain text-like (may still contain <br>)
+  const text = raw
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/&nbsp;/g, " ")
+    .trim();
+
+  const lines = text.split(/\n+/).map(l => l.trim()).filter(Boolean);
+
+  // Build paragraphs + bullet lists
+  let html = "";
+  let inList = false;
+
+  function closeList() {
+    if (inList) { html += "</ul>"; inList = false; }
+  }
+
+  for (const line of lines) {
+    const isBullet = /^[-•*]\s+/.test(line);
+    if (isBullet) {
+      if (!inList) { html += "<ul>"; inList = true; }
+      html += "<li>" + line.replace(/^[-•*]\s+/, "") + "</li>";
+    } else {
+      closeList();
+      html += "<p>" + line + "</p>";
+    }
+  }
+  closeList();
+
+  out.innerHTML = html;
+})();
+</script>
+
+
+  <div class="prompt">
+    Grade (Again/Hard/Good/Easy) to continue.
+  </div>
+</div>
+<script>
+(function() {
+ function normalizeCorrect(raw) {
+  raw = (raw || "").trim();
+  if (!raw) return "";
+  const m = raw.match(/[A-E]/i);
+  if (!m) return "";
+  const c = m[0].toUpperCase();
+  return ["A","B","C","D","E"].includes(c) ? c : "";
+}
+
+  function getChosen() {
+    try { return (sessionStorage.getItem("mcq_choice") || "").trim().toUpperCase(); }
+    catch(e) { return ""; }
+  }
+
+  const correctRaw = document.getElementById("correctKeyBack")?.textContent || "";
+  const correct = normalizeCorrect(correctRaw);
+  if (!correct) return;
+
+  const chosen = getChosen();
+
+  const opts = document.querySelectorAll("#optsBack .opt");
+  opts.forEach(o => {
+    const letter = o.getAttribute("data-letter");
+
+    // Dim all by default
+    o.classList.add("dim");
+
+    // Mark correct
+    if (letter === correct) {
+      o.classList.remove("dim");
+      o.classList.add("correct");
+    }
+
+    // Mark what user chose
+    if (chosen && letter === chosen) {
+      o.classList.remove("dim");
+      if (chosen === correct) o.classList.add("chosen-ok");
+      else o.classList.add("chosen-wrong");
+    }
+
+    // OPTIONAL: if you add back-side radios (Fix 2), keep them checked
+    const r = o.querySelector('input[type="radio"][name="ansBack"]');
+    if (r) r.checked = (chosen && letter === chosen);
+  });
+
+  const correctOptText =
+  document.querySelector(`#optsBack .opt[data-letter="${correct}"] .t`)?.textContent?.trim() || "";
+
+  const correctTextEl = document.getElementById("correctTextBack");
+  if (correctTextEl) {
+    // Choose the separator style you prefer:
+    // correctTextEl.textContent = `${correct}. ${correctOptText}`;
+    correctTextEl.textContent = `${correct} — ${correctOptText}`;
+  }
+
+
+  // cleanup
+  try { sessionStorage.removeItem("mcq_choice"); } catch(e) {}
+})();
+</script>
