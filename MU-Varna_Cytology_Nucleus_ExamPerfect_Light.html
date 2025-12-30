@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MU-Varna Cytology — The Nucleus (Exam-Perfect Summary)</title>
+  <style>
+    :root{
+      /* Contemporary Learning palette (teal / orange / soft green) */
+      --bg:#F6F7FB;
+      --paper:#FFFFFF;
+      --paper2:#FBFCFF;
+      --ink:#1F2937;
+      --muted:#4B5563;
+      --line:#E6EAF2;
+
+      --teal:#5FA7A3;
+      --orange:#E47C32;
+      --green:#BFD9A7;
+
+      --tealSoft:rgba(95,167,163,.14);
+      --orangeSoft:rgba(228,124,50,.14);
+      --greenSoft:rgba(191,217,167,.22);
+
+      --shadow:0 10px 30px rgba(31,41,55,.08);
+      --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      --sans:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      --radius:16px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--sans);}
+    .wrap{max-width:1120px;margin:0 auto;padding:26px 18px 70px}
+    h1{margin:0;font-size:28px;letter-spacing:.2px}
+    h2{margin:0;font-size:18px}
+    h3{margin:0;font-size:15px}
+    p{margin:10px 0;color:var(--muted);line-height:1.55}
+    ul{margin:8px 0 0 18px;padding:0}
+    li{margin:6px 0;line-height:1.55}
+    .mono{font-family:var(--mono)}
+    .k{font-weight:700;color:var(--ink)}
+    .hr{height:1px;background:var(--line);margin:12px 0}
+
+    /* Header */
+    .header{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+    .title p{max-width:80ch}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--paper);box-shadow:0 1px 0 rgba(31,41,55,.04);font-size:12px}
+    .dot{width:10px;height:10px;border-radius:999px}
+    .dot.teal{background:var(--teal)}
+    .dot.orange{background:var(--orange)}
+    .dot.green{background:var(--green)}
+
+    /* Cards */
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin:14px 0}
+    .card.soft{background:var(--paper2)}
+    .grid{display:grid;gap:14px}
+    @media(min-width:980px){.grid.two{grid-template-columns:1fr 1fr}}
+
+    /* Section header line */
+    .secHead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .mini{color:var(--muted);font-size:12px}
+
+    /* Callouts */
+    .callout{border-radius:14px;padding:12px;border:1px solid var(--line);background:var(--paper)}
+    .callout.teal{border-left:6px solid var(--teal);background:linear-gradient(180deg,var(--tealSoft),transparent)}
+    .callout.orange{border-left:6px solid var(--orange);background:linear-gradient(180deg,var(--orangeSoft),transparent)}
+    .callout.green{border-left:6px solid var(--green);background:linear-gradient(180deg,var(--greenSoft),transparent)}
+    .callout b{color:var(--ink)}
+    .callout p{margin:8px 0 0}
+
+    /* Exam trap */
+    .trap{border-radius:14px;padding:12px;border:1px dashed rgba(228,124,50,.55);background:linear-gradient(180deg,rgba(228,124,50,.10),transparent)}
+    .trap .label{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;color:var(--ink)}
+    .trap .label .dot{background:var(--orange)}
+    .trap ul{margin-top:10px}
+
+    /* Tables */
+    table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:14px;border:1px solid var(--line);background:var(--paper);margin:12px 0}
+    th,td{padding:10px 10px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+    th{background:linear-gradient(180deg,rgba(95,167,163,.12),transparent);text-align:left;color:var(--ink);font-size:13px}
+    tr:last-child td{border-bottom:none}
+
+    /* Pills */
+    .pill{display:inline-block;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:var(--paper);font-size:12px;color:var(--muted)}
+
+    /* Small footer */
+    .foot{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.45}
+
+@media print {
+  @page { size: A4; margin: 14mm 14mm 16mm 14mm; }
+  html, body{ background:#fff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .wrap{ max-width:none !important; margin:0 !important; padding:0 !important; }
+  .badges{display:none !important;}
+  .card{ box-shadow:none !important; break-inside:avoid; page-break-inside:avoid; }
+  .chapter{ break-before:page; page-break-before:always; }
+  h2, h3{ break-after:avoid; page-break-after:avoid; }
+  h2 + p, h2 + ul, h2 + table, h3 + p, h3 + ul, h3 + table{ break-before:avoid; page-break-before:avoid; }
+  .callout, .trap{ break-inside:avoid; page-break-inside:avoid; }
+  thead{display: table-header-group;}
+  tfoot{display: table-footer-group;}
+  tr, td, th{ break-inside:avoid; page-break-inside:avoid; }
+  .card{ margin:0 0 10px 0 !important; }
+  .hr{ margin:8px 0 !important; }
+  p, li, td{ line-height:1.35 !important; }
+  a{ text-decoration:none !important; }
+  p, li{ orphans:3; widows:3; }
+}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="header">
+      <div class="title">
+        <h1>MU-Varna Cytology • THE NUCLEUS</h1>
+        <p>
+          Exam-perfect chapter summary aligned to MU-Varna “EXCEPT” logic and audited against the nucleus-related questions in your exam pool.
+          Focus: definitions, mechanisms, stage-precision (prometaphase), and the classic traps that cost points.
+        </p>
+      </div>
+      <div class="badges" aria-label="Legend">
+        <span class="badge"><span class="dot teal"></span>Concept &amp; mechanism</span>
+        <span class="badge"><span class="dot orange"></span>MU-Varna exam traps</span>
+        <span class="badge"><span class="dot green"></span>Clinical relevance</span>
+      </div>
+    </div>
+
+    <div class="card soft">
+      <div class="secHead">
+        <h2>How to avoid losing points</h2>
+        <span class="mini">Use this on every nucleus MCQ</span>
+      </div>
+      <div class="hr"></div>
+      <div class="grid two">
+        <div class="callout teal">
+          <b>Mechanism-first answering</b>
+          <p>
+            For each option ask: <span class="k">Where is it?</span> <span class="k">What is it made of?</span>
+            <span class="k">What does it enable?</span> <span class="k">Which phase/stage is precise?</span>
+          </p>
+        </div>
+        <div class="callout orange">
+          <b>EXCEPT pattern (MU-Varna style)</b>
+          <p>
+            The wrong option is usually a <span class="k">true term placed into the wrong location or phase</span>
+            (e.g., envelope breakdown → “prophase” instead of <span class="k">prometaphase</span>, chromatin → “contains RNA”).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- I -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>I. Components of the nucleus</h2>
+        <span class="mini">Envelope • pores • lamina • chromatin • nucleolus</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Core roles</h3>
+          <ul>
+            <li><span class="k">Genetic control:</span> DNA storage and regulated gene expression (transcription).</li>
+            <li><span class="k">Replication:</span> DNA duplication during <span class="k">S phase</span>.</li>
+            <li><span class="k">RNA synthesis &amp; processing:</span> especially rRNA in the nucleolus.</li>
+            <li><span class="k">Cell cycle control:</span> checkpoints and apoptosis regulation.</li>
+          </ul>
+
+          <div class="trap" style="margin-top:12px">
+            <div class="label"><span class="dot"></span>MU-VARNA TRAP</div>
+            <ul>
+              <li><span class="k">Translation</span> (protein synthesis) does <span class="k">not</span> occur in the nucleus.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Nuclear envelope (double membrane)</h3>
+          <ul>
+            <li><span class="k">Two concentric membranes</span> separated by <span class="k">30–50 nm</span> perinuclear space.</li>
+            <li><span class="k">Outer membrane:</span> continuous with <span class="k">RER</span>.</li>
+            <li><span class="k">Inner membrane:</span> anchored to <span class="k">nuclear lamina</span>.</li>
+            <li><span class="k">Selective barrier</span> for macromolecules.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Nuclear lamina</h3>
+          <ul>
+            <li>Meshwork of <span class="k">lamins</span> (<span class="k">intermediate filaments</span>).</li>
+            <li>Stabilizes nucleus and organizes chromatin at the periphery.</li>
+          </ul>
+
+          <div class="trap">
+            <div class="label"><span class="dot"></span>EXAM ALERT (tested)</div>
+            <ul>
+              <li><span class="k">Inactive DNA (heterochromatin)</span> is concentrated/anchored at the <span class="k">nuclear lamina</span>.</li>
+              <li><span class="k">Active DNA (euchromatin)</span> is <span class="k">not</span> concentrated at the nuclear lamina.</li>
+              <li>Intermediate filaments exist in the nucleus as <span class="k">lamins</span>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Nuclear pore complexes (NPCs)</h3>
+          <ul>
+            <li>Made of <span class="k">nucleoporins</span>, regulate macromolecular traffic.</li>
+            <li>Import uses <span class="k">NLS</span> + <span class="k">importins</span>; export uses <span class="k">NES</span>.</li>
+            <li>Energy: <span class="k">GTP</span> (regulated transport); small molecules diffuse.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- II -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>II. Chromatin organization</h2>
+        <span class="mini">Nucleosome • euchromatin/heterochromatin • Barr body</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Chromatin definition</h3>
+          <ul>
+            <li><span class="k">Chromatin = DNA + histones + non-histone proteins</span>.</li>
+            <li>Human somatic cells: <span class="k">46 chromosomes (23 pairs)</span>.</li>
+            <li>After S phase: sister chromatids held by <span class="k">cohesins</span>.</li>
+          </ul>
+
+          <div class="trap">
+            <div class="label"><span class="dot"></span>MU-VARNA TRAP</div>
+            <ul>
+              <li>“Chromatin contains <span class="k">RNA</span>” is the classic <span class="k">EXCEPT</span> error.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Nucleosome (basic unit of chromatin)</h3>
+          <ul>
+            <li>~<span class="k">150 bp</span> DNA wrapped around <span class="k">8 histones</span> (2× H2A, H2B, H3, H4).</li>
+            <li><span class="k">H1</span> binds linker DNA (higher-order packing).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Euchromatin</th>
+            <th>Heterochromatin</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Staining</b></td>
+            <td>Light</td>
+            <td>Dark</td>
+          </tr>
+          <tr>
+            <td><b>Condensation</b></td>
+            <td>Dispersed / open</td>
+            <td>Condensed / packed</td>
+          </tr>
+          <tr>
+            <td><b>Transcription</b></td>
+            <td>Active</td>
+            <td>Inactive</td>
+          </tr>
+          <tr>
+            <td><b>Peripheral association</b></td>
+            <td>Not concentrated at lamina</td>
+            <td>Often anchored at nuclear lamina</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="grid two">
+        <div class="callout teal">
+          <b>Heterochromatin types</b>
+          <p>
+            <span class="k">Constitutive</span> (always silent: centromeres, telomeres) vs
+            <span class="k">Facultative</span> (reversible silencing: Barr body).
+          </p>
+        </div>
+        <div class="callout green">
+          <b>Clinical anchor</b>
+          <p>
+            <span class="k">Barr body</span> = inactive X chromosome (exam correlation: sex chromatin, Klinefelter XXY).
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- III -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>III. Nucleolus</h2>
+        <span class="mini">rRNA synthesis • ribosome assembly • TEM regions</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Core function</h3>
+          <ul>
+            <li>Non-membrane nuclear domain for <span class="k">rRNA synthesis</span> and <span class="k">ribosomal subunit assembly</span>.</li>
+            <li>Prominent in cells with high protein synthesis (many ribosomes needed).</li>
+          </ul>
+
+          <div class="trap">
+            <div class="label"><span class="dot"></span>Trap</div>
+            <ul>
+              <li>Nucleolar basophilia reflects <span class="k">rRNA</span>, not heterochromatin.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>TEM subregions</h3>
+          <ul>
+            <li><span class="k">Fibrillar centers (FC):</span> rRNA genes (DNA).</li>
+            <li><span class="k">Dense fibrillar component:</span> rRNA transcription/processing.</li>
+            <li><span class="k">Granular component:</span> assembling ribosomal subunits.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- IV -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>IV. Cell cycle (phase precision)</h2>
+        <span class="mini">G1 • S • G2 • M • checkpoints • CDKs</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Phases</h3>
+          <ul>
+            <li><span class="k">G1:</span> growth; often longest.</li>
+            <li><span class="k">S:</span> <span class="k">DNA replication</span> + histone synthesis.</li>
+            <li><span class="k">G2:</span> preparation for mitosis.</li>
+            <li><span class="k">M:</span> mitosis (nuclear division) + cytokinesis.</li>
+            <li><span class="k">G0:</span> quiescent state.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Control &amp; checkpoints</h3>
+          <ul>
+            <li>Regulated by <span class="k">cyclins</span> and <span class="k">CDKs</span>.</li>
+            <li><span class="k">G1/S</span> checkpoint: DNA integrity + resources.</li>
+            <li><span class="k">G2/M</span> checkpoint: DNA replication complete.</li>
+            <li><span class="k">Metaphase spindle</span> checkpoint: attachment correct.</li>
+          </ul>
+
+          <div class="callout green" style="margin-top:12px">
+            <b>Clinical anchor</b>
+            <p><span class="k">p53</span> and <span class="k">Rb</span> are major tumor suppressors linked to checkpoint failure in cancer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="trap" style="margin-top:12px">
+        <div class="label"><span class="dot"></span>Numeric / structure trap (tested)</div>
+        <ul>
+          <li>Centrioles are <span class="k">cytoplasmic</span>, duplicated before mitosis; in <span class="k">G2</span> there are typically <span class="k">4 centrioles</span>.</li>
+          <li>Do not confuse centrioles (centrosome) with nuclear structures.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- V -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>V. Mitosis (nuclear division) &amp; stage traps</h2>
+        <span class="mini">Prometaphase precision • spindle logic • cytokinesis</span>
+      </div>
+      <div class="hr"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Stage</th>
+            <th>Key events (high-yield)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Prophase</b></td>
+            <td>Chromatin condenses; nucleolus disappears; spindle begins forming; centrosomes migrate.</td>
+          </tr>
+          <tr>
+            <td><b>Prometaphase</b></td>
+            <td><span class="k">Nuclear envelope disassembles</span> (lamin phosphorylation); kinetochores attach to spindle microtubules.</td>
+          </tr>
+          <tr>
+            <td><b>Metaphase</b></td>
+            <td>Chromosomes align at equatorial plate; spindle checkpoint.</td>
+          </tr>
+          <tr>
+            <td><b>Anaphase</b></td>
+            <td>Sister chromatids separate and move to poles.</td>
+          </tr>
+          <tr>
+            <td><b>Telophase</b></td>
+            <td>Nuclear envelopes re-form; chromosomes decondense; nucleoli reappear.</td>
+          </tr>
+          <tr>
+            <td><b>Cytokinesis</b></td>
+            <td>Contractile ring of <span class="k">actin + myosin</span> divides cytoplasm.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="trap">
+        <div class="label"><span class="dot"></span>MU-VARNA STAGE PRECISION</div>
+        <ul>
+          <li>Nuclear envelope breakdown is tested as <span class="k">prometaphase</span>, not “prophase”.</li>
+          <li>Spindle = <span class="k">microtubules</span>, cytokinesis ring = <span class="k">actin</span>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- VI -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>VI. Meiosis (exam-linked nuclear events)</h2>
+        <span class="mini">Prophase I substage • haploid cells • nondisjunction</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Key differences vs mitosis</h3>
+          <ul>
+            <li>Two divisions → four <span class="k">haploid</span>, genetically unique cells.</li>
+            <li>Synapsis of homologous chromosomes.</li>
+            <li>Crossing-over generates variation.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>High-yield facts</h3>
+          <ul>
+            <li>Crossing-over occurs in <span class="k">pachytene</span> (Prophase I).</li>
+            <li>Haploid chromosome set is found in <span class="k">gametes</span> (and immediately related stages).</li>
+            <li>Chromosome number abnormalities often result from <span class="k">nondisjunction</span>, classically in the first meiotic division.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- VII -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>VII. Apoptosis (programmed cell death)</h2>
+        <span class="mini">Caspases • Bcl-2 • apoptosis vs necrosis</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Definition</h3>
+          <ul>
+            <li>Programmed, regulated cell death <span class="k">without inflammation</span>.</li>
+            <li>Cell shrinkage, blebbing, apoptotic bodies, phagocytosis.</li>
+          </ul>
+
+          <div class="trap">
+            <div class="label"><span class="dot"></span>MU-VARNA TRAP</div>
+            <ul>
+              <li>“Apoptosis causes inflammation” is false (that is necrosis).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Molecular control</h3>
+          <ul>
+            <li><span class="k">Bcl-2 family</span> regulates mitochondrial pathway.</li>
+            <li><span class="k">Executioners:</span> <span class="k">caspases</span> (tested wording).</li>
+            <li>DNA cleavage in nucleosomal pattern.</li>
+          </ul>
+
+          <div class="callout green" style="margin-top:12px">
+            <b>Clinical anchor</b>
+            <p>Apoptosis is central to development (e.g., digit separation) and tumor suppression.</p>
+          </div>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Apoptosis</th>
+            <th>Necrosis</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Inflammation</b></td>
+            <td>No</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td><b>Cell size</b></td>
+            <td>Shrinkage</td>
+            <td>Swelling</td>
+          </tr>
+          <tr>
+            <td><b>Membrane</b></td>
+            <td>Maintained (apoptotic bodies)</td>
+            <td>Ruptures</td>
+          </tr>
+          <tr>
+            <td><b>DNA</b></td>
+            <td>Ordered fragmentation</td>
+            <td>Random degradation</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- VIII -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>VIII. Stem cells &amp; tissue renewal</h2>
+        <span class="mini">Asymmetric division • progenitor cells • terminal differentiation</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Stem cells</h3>
+          <ul>
+            <li>Undifferentiated, slow-cycling.</li>
+            <li><span class="k">Asymmetric division</span>: one stem cell + one committed cell.</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Progenitor (transit-amplifying) cells</h3>
+          <ul>
+            <li>Rapidly dividing, lineage-committed, limited divisions.</li>
+            <li>Most mitotic figures in adult tissues reflect <span class="k">progenitor</span> activity.</li>
+            <li><span class="k">Terminal differentiation</span>: some specialized cells lose division capacity (neurons, cardiac muscle).</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- IX -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>IX. Clinical correlations (high-yield)</h2>
+        <span class="mini">Karyotyping • cancer morphology • laminopathies</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Karyotyping</h3>
+          <ul>
+            <li>Chromosomes are analyzed most clearly in <span class="k">metaphase</span>.</li>
+            <li>Detects aneuploidies (e.g., XXY).</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Cancer (nuclear morphology)</h3>
+          <ul>
+            <li><span class="k">Enlarged nuclei</span>, irregular contours.</li>
+            <li><span class="k">Hyperchromasia</span> (dark staining).</li>
+            <li><span class="k">Prominent nucleoli</span>.</li>
+            <li>Driven by altered cell cycle control (proto-oncogenes, tumor suppressors: <span class="k">p53, Rb</span>).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="callout green" style="margin-top:12px">
+        <b>Laminopathies</b>
+        <p>Mutations in lamins can disrupt nuclear integrity and gene regulation (classical example: progeria).</p>
+      </div>
+    </div>
+
+    <!-- X -->
+    <div class="card soft chapter">
+      <div class="secHead">
+        <h2>Educational roadmap (how to master this chapter fast)</h2>
+        <span class="mini">Use this as your last-day plan</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div class="callout teal">
+          <b>Step 1: Definitions (10 minutes)</b>
+          <p>
+            Memorize: nuclear envelope, lamina, NPC, chromatin, nucleosome, euchromatin vs heterochromatin, nucleolus.
+          </p>
+        </div>
+        <div class="callout orange">
+          <b>Step 2: MU-Varna traps (10 minutes)</b>
+          <p>
+            Drill until automatic: <span class="k">prometaphase</span> for envelope breakdown, chromatin <span class="k">does not contain RNA</span>,
+            heterochromatin anchored at <span class="k">nuclear lamina</span>, S phase for DNA synthesis, <span class="k">4 centrioles in G2</span>.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid two" style="margin-top:14px">
+        <div class="callout teal">
+          <b>Step 3: Phase tables (15 minutes)</b>
+          <p>
+            Reproduce from memory: cell cycle phases + checkpoints; mitosis stages + one key event each; meiosis: pachytene crossing-over.
+          </p>
+        </div>
+        <div class="callout green">
+          <b>Step 4: Clinical transfer (5 minutes)</b>
+          <p>
+            Link: Barr body ↔ sex chromatin, p53/Rb ↔ checkpoints/cancer, caspases ↔ apoptosis, lamins ↔ laminopathies.
+          </p>
+        </div>
+      </div>
+
+      <div class="foot">
+        <b>Last check before the exam:</b> If you can answer “Where is it?”, “What is it made of?”, and “Which phase is correct?” for every nucleus term, you are exam-ready.
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

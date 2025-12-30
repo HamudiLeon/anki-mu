@@ -15,7 +15,7 @@
     <div class="opt" data-letter="D"><span class="k">D</span><span class="t">{{OptionD}}</span></div>
 {{#OptionE}}
 <label class="rOpt" data-letter="E">
-<input type="radio" name="ans" value="E">
+
 <span class="k">E</span><span class="t">{{OptionE}}</span>
 </label>
 {{/OptionE}}
@@ -109,7 +109,7 @@
 
   const chosen = getChosen();
 
-  const opts = document.querySelectorAll("#optsBack .opt");
+const opts = document.querySelectorAll("#optsBack .opt, #optsBack .rOpt");
   opts.forEach(o => {
     const letter = o.getAttribute("data-letter");
 
@@ -134,8 +134,9 @@
     if (r) r.checked = (chosen && letter === chosen);
   });
 
-  const correctOptText =
-  document.querySelector(`#optsBack .opt[data-letter="${correct}"] .t`)?.textContent?.trim() || "";
+const correctOptText =
+  document.querySelector(`#optsBack [data-letter="${correct}"] .t`)?.textContent?.trim() || "";
+
 
   const correctTextEl = document.getElementById("correctTextBack");
   if (correctTextEl) {

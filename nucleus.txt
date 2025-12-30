@@ -1,0 +1,1161 @@
+1.
+According to the MU-Varna stage precision logic, at which precise phase does the breakdown of the nuclear envelope occur?
+
+A.
+Anaphase
+
+B.
+Prometaphase
+
+Richtige Antwort
+Phosphorylation of lamins leads to the disassembly of the nuclear envelope specifically during this transitional phase.
+
+C.
+Metaphase
+
+D.
+Prophase
+
+Nicht ganz
+While chromatin begins to condense here, the envelope breakdown is a more specific later event.
+
+
+2.
+Which component of the nuclear envelope is continuous with the Rough Endoplasmic Reticulum (RER) and can bind ribosomes?
+
+A.
+Inner nuclear membrane
+
+B.
+Outer nuclear membrane
+
+Richtige Antwort
+The outer membrane is structurally and functionally continuous with the RER.
+
+C.
+Nuclear lamina
+
+Nicht ganz
+This is an internal meshwork of intermediate filaments, not a membrane.
+
+D.
+Perinuclear space
+
+
+3.
+A researcher observes dark-staining, condensed DNA anchored to the nuclear lamina. Which of the following best describes this material?
+
+A.
+Euchromatin
+
+B.
+Nucleolus
+
+C.
+Heterochromatin
+
+Das stimmt.
+Heterochromatin is transcriptionally inactive, highly condensed, and often peripheral.
+
+D.
+Barr body
+
+4.
+What is the basic structural unit of chromatin, consisting of DNA wrapped around a histone octamer?
+
+A.
+Nucleosome
+
+Das stimmt.
+A nucleosome consists of roughly 150 bp of DNA wrapped around histones H2A, H2B, H3, and H4.
+
+B.
+Chromatid
+
+C.
+Nucleoporin
+
+D.
+Centrosome
+
+5.
+The nucleolus is highly prominent in cells with high protein synthesis. What is its primary TEM-visible granular component responsible for?
+
+A.
+rRNA gene storage
+
+B.
+Histone synthesis
+
+C.
+Ribosomal subunit assembly
+
+Das stimmt.
+The granular component is where the final assembly of ribosomal subunits takes place.
+
+D.
+mRNA transcription
+
+
+6.
+In which phase of the cell cycle is the DNA content doubled alongside the synthesis of histones?
+
+A.
+S phase
+
+Richtige Antwort
+The S (synthesis) phase is specifically for DNA replication and histone production.
+
+B.
+M phase
+
+C.
+G1 phase
+
+Nicht ganz
+This is the longest phase focused on growth and preparation.
+
+D.
+G2 phase
+
+
+7.
+Which of the following events is unique to Prophase I of meiosis compared to mitotic prophase?
+
+A.
+Synapsis of homologous chromosomes
+
+Das stimmt.
+Meiosis involves the pairing of homologous chromosomes to allow for genetic recombination.
+
+B.
+Disappearance of the nucleolus
+
+C.
+Migration of centrosomes
+
+D.
+Condensation of chromatin
+
+8.
+Apoptosis is often distinguished from necrosis by several key features. Which of the following is characteristic ONLY of apoptosis?
+
+A.
+Cell swelling
+
+B.
+Inflammatory response
+
+C.
+Random DNA degradation
+
+D.
+Maintenance of membrane integrity via apoptotic bodies
+
+Das stimmt.
+Apoptosis keeps contents contained in blebs/bodies until phagocytosis, preventing inflammation.
+
+
+.
+The execution of apoptosis involves a cascade of proteolytic enzymes. What are these 'executioner' proteins called?
+
+A.
+Cyclins
+
+B.
+Lamins
+
+C.
+Bcl-2
+
+D.
+Caspases
+
+Das stimmt.
+Caspases are the primary proteases that degrade the cytosol and cytoskeleton during apoptosis.
+
+0.
+Which specific protein is responsible for binding 'linker DNA' and assisting in the higher-order packing of nucleosomes?
+
+A.
+Histone H1
+
+Richtige Antwort
+H1 is the linker histone that facilitates the condensation of beads-on-a-string into fibers.
+
+B.
+Histone H3
+
+Nicht ganz
+H3 is part of the core octamer, not the linker.
+
+C.
+Cohesin
+
+D.
+Actin
+
+11.
+Which specific protein serves as the 'gatekeeper' of the nuclear pore complex, regulating the traffic of molecules between the nucleus and cytoplasm?
+
+A.
+Histones
+
+B.
+Lamins
+
+C.
+Nucleoporins
+
+Das stimmt.
+Nucleoporins are the large protein assemblies that form the nuclear pore complex and regulate transport.
+
+D.
+Importins
+
+11.
+Which specific protein serves as the 'gatekeeper' of the nuclear pore complex, regulating the traffic of molecules between the nucleus and cytoplasm?
+
+A.
+Histones
+
+B.
+Lamins
+
+C.
+Nucleoporins
+
+Das stimmt.
+Nucleoporins are the large protein assemblies that form the nuclear pore complex and regulate transport.
+
+D.
+Importins
+
+12.
+Regarding the S phase of the cell cycle, which of the following occurs simultaneously with DNA replication?
+
+A.
+Disassembly of the nuclear envelope
+
+B.
+Alignment of chromosomes
+
+C.
+Synthesis of histones
+
+Das stimmt.
+Histone production is tightly coupled with DNA replication during the S phase to package the new DNA.
+
+D.
+Cytokinesis
+
+
+13.
+What is the structural significance of the 8-fold symmetry in the nuclear pore complex?
+
+A.
+It facilitates the binding of 8 different histone types.
+
+B.
+It corresponds to the 8 phases of mitosis.
+
+C.
+It allows for the simultaneous export of 8 mRNA strands.
+
+D.
+It provides a massive, organized framework for nucleoporins.
+
+Das stimmt.
+The complex is a highly symmetric assembly of multiple nucleoporins that form the transport channel.
+
+
+14.
+Which substage of Prophase I is characterized by the initiation of 'crossing-over' between non-sister chromatids?
+
+A.
+Zygotene
+
+B.
+Diplotene
+
+C.
+Pachytene
+
+Das stimmt.
+Pachytene is the specific stage where crossing-over (genetic recombination) takes place.
+
+D.
+Leptotene
+
+15.
+In the 'EXCEPT' logic of MU-Varna, why would labeling chromatin as 'containing primarily RNA' be incorrect?
+
+A.
+Chromatin is primarily DNA and associated histones.
+
+Richtige Antwort
+The defining components of chromatin are DNA and histones; RNA is a secondary or transient component.
+
+B.
+Chromatin is made of lipids and proteins.
+
+C.
+Chromatin contains no RNA at all.
+
+Nicht ganz
+Chromatin does contain some nascent RNA, but it is primarily DNA and protein.
+
+D.
+RNA is only found in the cytoplasm.
+
+16.
+What happens to the nuclear lamina during the transition from prophase to prometaphase?
+
+A.
+Lamins are phosphorylated, causing the lamina to disassemble.
+
+Richtige Antwort
+Phosphorylation by kinases leads to the breakdown of both the lamina and the envelope.
+
+B.
+It thickens to protect the DNA.
+
+C.
+It detaches from the envelope and moves to the centrosomes.
+
+Nicht ganz
+The lamina does not migrate; its subunits disperse into the cytosol.
+
+D.
+It converts into the contractile ring.
+
+17.
+Which of the following describes the 'Fibrillar Center' of the nucleolus?
+
+A.
+Location of inactive DNA coding for rRNA.
+
+Richtige Antwort
+The fibrillar center contains the DNA templates for ribosomal RNA.
+
+B.
+The protein meshwork supporting the nucleolus.
+
+C.
+Site of ribosomal subunit assembly.
+
+Nicht ganz
+This describes the granular component.
+
+D.
+The region where tRNA is processed.
+
+18.
+During apoptosis, what role do the Bcl-2 family proteins play?
+
+A.
+They trigger the inflammatory response.
+
+B.
+They form the apoptotic bodies.
+
+C.
+They act as the primary executioner proteases.
+
+D.
+They regulate the release of pro-apoptotic factors from mitochondria.
+
+Das stimmt.
+Bcl-2 family members control mitochondrial membrane permeability.
+
+
+
+19.
+A cell with a 'Barr Body' is most likely from which individual?
+
+A.
+A healthy human male.
+
+B.
+A gamete (sperm or egg).
+
+C.
+A healthy human female.
+
+Das stimmt.
+One of the two X chromosomes in females is inactivated and condensed into a Barr body.
+
+D.
+A cell undergoing necrosis.
+
+20.
+Which protein is the primary component of the 'Contractile Ring' during cytokinesis?
+
+A.
+Actin
+
+Das stimmt.
+The contractile ring is composed of actin filaments and myosin motor proteins.
+
+B.
+Vimentin
+
+C.
+Tubulin
+
+D.
+Lamin B
+
+21.
+What is the fate of the nuclear envelope at the end of Telophase?
+
+A.
+It transforms into the cell membrane.
+
+B.
+It is permanently lost.
+
+C.
+It reforms around the individual chromosomes.
+
+Das stimmt.
+The nuclear envelope reassembles around the separated sets of chromosomes to form new nuclei.
+
+D.
+It remains dispersed in the cytoplasm.
+
+22.
+Which chromatin type is characterized by being 'transcriptionally active' and 'lightly stained'?
+
+A.
+Facultative heterochromatin
+
+B.
+Nucleolar chromatin
+
+C.
+Constitutive heterochromatin
+
+D.
+Euchromatin
+
+Das stimmt.
+Euchromatin is dispersed, allowing access for transcription machinery.
+
+23.
+What distinguishes Necrosis from Apoptosis regarding the cell's physical size?
+
+A.
+Apoptosis involves swelling.
+
+B.
+Necrosis involves shrinkage.
+
+C.
+Apoptosis involves cell shrinkage.
+
+Das stimmt.
+The cell condenses and shrinks during programmed cell death.
+
+D.
+Both involve the same size changes.
+
+24.
+The perinuclear space is the gap between:
+
+A.
+The inner and outer nuclear membranes.
+
+Das stimmt.
+The nuclear envelope consists of two membranes separated by this narrow space.
+
+B.
+The nuclear pore and the RER.
+
+C.
+Chromatids during anaphase.
+
+D.
+The nucleolus and the lamina.
+
+
+5.
+Which protein is part of the 'core' histone octamer?
+
+A.
+H2A
+
+Richtige Antwort
+The octamer consists of two each of H2A, H2B, H3, and H4.
+
+B.
+Lamin A
+
+C.
+H1
+
+Nicht ganz
+H1 is the linker histone, located outside the octamer core.
+
+D.
+Cohesin
+
+26.
+A mutation that prevents the formation of the 'synaptonemal complex' would directly affect which process?
+
+A.
+Mitotic metaphase
+
+Nicht ganz
+Synaptonemal complexes are not formed in mitosis.
+
+B.
+Nuclear pore assembly
+
+C.
+Meiotic synapsis
+
+Richtige Antwort
+This complex is essential for pairing homologous chromosomes in Meiosis I.
+
+D.
+Apoptosis
+
+27.
+Which nuclear structure is the site of rRNA synthesis and preliminary ribosomal assembly?
+
+A.
+Perinuclear space
+
+B.
+Nuclear pore
+
+C.
+Nuclear lamina
+
+D.
+Nucleolus
+
+Das stimmt.
+The nucleolus is a specialized region for manufacturing ribosome components.
+
+28.
+In the MU-Varna exam, if an option states that the 'spindle is made of actin', why is it incorrect?
+
+A.
+The spindle is made of lamins.
+
+B.
+Actin is only found in the nucleus.
+
+C.
+The spindle is made of DNA.
+
+D.
+The spindle is composed of microtubules (tubulin).
+
+Das stimmt.
+Microtubules form the spindle fibers; actin forms the cytokinesis ring.
+
+29.
+During which phase of mitosis do chromosomes align at the equatorial plate?
+
+A.
+Prophase
+
+B.
+Metaphase
+
+Das stimmt.
+Metaphase is defined by the alignment of chromosomes at the cell's center.
+
+C.
+Telophase
+
+D.
+Anaphase
+
+30.
+What is 'nondisjunction' and when does it classically occur to cause chromosome abnormalities?
+
+A.
+The accidental fusion of two nuclei.
+
+B.
+Failure of chromosomes to separate during Meiosis I.
+
+Das stimmt.
+Nondisjunction is the failure of separation, often in the first meiotic division.
+
+C.
+Failure of DNA to replicate in S phase.
+
+D.
+The rupture of the nuclear envelope in G2.
+
+31.
+Which of the following describes the 'Pars Granulosa' of the nucleolus?
+
+A.
+Lightly stained DNA.
+
+B.
+Maturing ribosomal subunits.
+
+Richtige Antwort
+The granular part consists of nearly complete ribosomal subunits ready for export.
+
+C.
+Newly synthesized rRNA strands.
+
+Nicht ganz
+This is the 'pars fibrosa'.
+
+D.
+The nuclear pore attachment site.
+
+32.
+What is the primary function of Histone H1?
+
+A.
+It forms the core of the nucleosome.
+
+B.
+It acts as a caspase during apoptosis.
+
+C.
+It synthesizes RNA in the nucleolus.
+
+D.
+It stabilizes the 30-nm chromatin fiber by pulling nucleosomes together.
+
+Das stimmt.
+H1 is the 'linker' histone that helps fold nucleosomes into more compact structures.
+
+33.
+Apoptosis during embryonic development is necessary for which of the following?
+
+A.
+Creation of the nuclear envelope.
+
+B.
+Formation of the nucleolus.
+
+C.
+Digit separation (e.g., in the hands).
+
+Das stimmt.
+The removal of 'webbing' between fingers is a classic example of programmed cell death.
+
+D.
+Initiation of the S phase.
+
+34.
+Which structure connects the nucleus to the Rough ER?
+
+A.
+Nuclear lamina.
+
+B.
+Nucleolus.
+
+C.
+Inner nuclear membrane.
+
+D.
+Outer nuclear membrane.
+
+Das stimmt.
+The outer membrane is physically continuous with the RER membrane.
+
+35.
+What happens to the DNA in a cell undergoing apoptosis according to a standard 'DNA ladder' test?
+
+A.
+It is randomly smeared across the gel.
+
+B.
+It is duplicated one last time.
+
+C.
+It is cleaved into regular fragments of about 180-200 base pairs.
+
+Das stimmt.
+Caspase-activated DNase cuts DNA between nucleosomes in an ordered pattern.
+
+D.
+It remains intact and circular.
+
+36.
+Which of the following is NOT a feature of the nuclear lamina?
+
+A.
+Composed of intermediate filaments.
+
+B.
+Supports the nuclear envelope structurally.
+
+C.
+Binds to heterochromatin at the nuclear periphery.
+
+D.
+Contains the genes for ribosomal RNA.
+
+Das stimmt.
+These genes are located in the nucleolus, not the lamina.
+
+37.
+During Prophase I, when do homologous chromosomes align side-by-side (synapsis)?
+
+A.
+Anaphase I
+
+B.
+Leptotene
+
+C.
+Zygotene
+
+Richtige Antwort
+Zygotene is characterized by the 'zipping up' or synapsis of homologous pairs.
+
+D.
+Metaphase II
+
+Nicht ganz
+Metaphase II involves sister chromatids, not homologous synapsis.
+
+38.
+What defines the 'Prometaphase' stage in the context of the nuclear envelope?
+
+A.
+The envelope completely disassembles into small vesicles.
+
+Richtige Antwort
+Prometaphase is marked by the final breakdown of the nuclear envelope.
+
+B.
+The envelope re-forms around chromosomes.
+
+Nicht ganz
+Re-formation occurs during telophase.
+
+C.
+The envelope starts to thicken.
+
+D.
+The envelope becomes impermeable to all molecules.
+
+39.
+In meiosis, the 'reductional' division refers to:
+
+A.
+Cytokinesis
+
+B.
+Meiosis I
+
+Das stimmt.
+Meiosis I reduces the chromosome number from diploid (2n) to haploid (n).
+
+C.
+S phase
+
+D.
+Meiosis II
+
+40.
+Which molecule is released from the mitochondria to trigger the formation of the apoptosome?
+
+A.
+DNA ligase
+
+B.
+Cytochrome c
+
+Das stimmt.
+The release of Cytochrome c into the cytosol is the 'point of no return' for apoptosis.
+
+C.
+ATP
+
+D.
+RNA polymerase
+
+41.
+A cell in G0 is described as:
+
+A.
+Exited the cell cycle and entered a quiescent state.
+
+Das stimmt.
+Cells in G0 are metabolically active but have stopped dividing.
+
+B.
+Replicating its DNA.
+
+C.
+Undergoing rapid division.
+
+D.
+Undergoing apoptosis.
+
+42.
+The 'nuclear pore complex' shows what type of rotational symmetry?
+
+A.
+Two-fold
+
+B.
+Eight-fold
+
+Das stimmt.
+The NPC is composed of eight protein subunits arranged in a ring.
+
+C.
+Circular (no symmetry)
+
+D.
+Six-fold
+
+
+43.
+During apoptosis, cell 'blebbing' refers to:
+
+A.
+The formation of irregular bulges in the plasma membrane.
+
+Das stimmt.
+Blebbing is the protrusion of the membrane as the cytoskeleton breaks down.
+
+B.
+The swelling of the mitochondria.
+
+C.
+The condensation of the nucleus.
+
+D.
+The fusion of lysosomes with the nucleus.
+
+44.
+Which enzyme is responsible for the 'fragmentation' of DNA into nucleosomal units during apoptosis?
+
+A.
+Proteasome
+
+B.
+Endonuclease (CAD)
+
+Das stimmt.
+Caspase-activated DNase (CAD) is the enzyme that cuts the DNA.
+
+C.
+Helicase
+
+D.
+DNA Polymerase
+
+45.
+Which of the following is true regarding the 'Inner Nuclear Membrane'?
+
+A.
+It is made of proteins only.
+
+B.
+It is continuous with the plasma membrane.
+
+C.
+It is associated with the nuclear lamina and heterochromatin.
+
+Das stimmt.
+The inner membrane provides an anchor point for the lamina and peripheral DNA.
+
+D.
+It is covered with ribosomes.
+
+46.
+A cell with highly active transcription would show:
+
+A.
+Extensive euchromatin and a large nucleolus.
+
+Das stimmt.
+Active cells need open DNA (euchromatin) and many ribosomes (large nucleolus).
+
+B.
+A very small nucleus.
+
+C.
+Large amounts of heterochromatin.
+
+D.
+No nuclear pores.
+
+47.
+What is 'Pyknosis'?
+
+A.
+The duplication of the nucleolus.
+
+B.
+The breakdown of the plasma membrane.
+
+C.
+The condensation and shrinkage of the nucleus.
+
+Das stimmt.
+Pyknosis is the hallmark nuclear condensation seen in both apoptosis and necrosis.
+
+D.
+The movement of chromosomes to the poles.
+
+48.
+In the cell cycle, checkpoints (like G1/S) are primarily regulated by:
+
+A.
+Histones and DNA.
+
+B.
+The number of ribosomes.
+
+C.
+The nuclear lamina.
+
+D.
+Cyclins and Cyclin-Dependent Kinases (CDKs).
+
+Das stimmt.
+The interaction of cyclins and CDKs controls the progression through checkpoints.
+
+49.
+During Meiosis II, what is being separated?
+
+A.
+Sister chromatids.
+
+Richtige Antwort
+Meiosis II is equational and separates the sisters, similar to mitosis.
+
+B.
+Ribosomal subunits.
+
+C.
+Homologous chromosomes.
+
+Nicht ganz
+These are separated in Meiosis I.
+
+D.
+The nuclear membranes.
+
+50.
+Which of the following describes 'Karyolysis'?
+
+A.
+The dissolution or fading of the nucleus.
+
+Das stimmt.
+Karyolysis is the complete loss of the nucleus due to DNA degradation.
+
+B.
+Nuclear condensation.
+
+C.
+The division of the cytoplasm.
+
+D.
+The duplication of chromosomes.
+
+
+51.
+The 'Nucleolar Organizer Regions' (NORs) contain:
+
+A.
+Genes for mRNA.
+
+B.
+Loops of DNA containing rRNA genes.
+
+Das stimmt.
+NORs are specific chromosomal locations that form the nucleolus.
+
+C.
+Ribosomes ready for export.
+
+D.
+Caspase-3 enzymes.
+
+
+52.
+In mitosis, when does the nucleolus disappear?
+
+A.
+Prophase.
+
+Richtige Antwort
+The nucleolus disassembles early in mitosis as chromatin condenses.
+
+B.
+Cytokinesis.
+
+C.
+Anaphase.
+
+Nicht ganz
+It is long gone by the time chromosomes move.
+
+D.
+G2 phase.
+
+
+53.
+Why does Necrosis cause inflammation but Apoptosis does not?
+
+A.
+Necrosis is slower.
+
+B.
+Apoptosis uses more energy.
+
+C.
+Necrosis involves membrane rupture, spilling cellular contents.
+
+Das stimmt.
+Released enzymes and debris from the ruptured cell trigger an immune response.
+
+D.
+Necrosis is programmed.
+
+
+54.
+Which of the following best describes 'Chiasmata'?
+
+A.
+The proteins holding the lamina together.
+
+B.
+Visible sites of crossing-over between homologous chromosomes.
+
+Das stimmt.
+Chiasmata are the X-shaped bridges seen in diplotene where exchange occurred.
+
+C.
+The centers of the nucleolus.
+
+D.
+The pores in the nuclear envelope.
+
+
+55.
+What is the primary role of 'Cohesins'?
+
+A.
+Synthesizing DNA.
+
+B.
+Degrading the nuclear lamina.
+
+C.
+Holding sister chromatids together until anaphase.
+
+Das stimmt.
+Cohesin rings keep the identical copies paired for proper alignment.
+
+D.
+Packaging DNA into nucleosomes.
+
+
+56.
+The 'Haploid' (n) chromosome number is first reached at the end of which stage?
+
+A.
+Fertilization.
+
+B.
+S phase.
+
+C.
+Mitosis.
+
+D.
+Meiosis I.
+
+Das stimmt.
+After homologous chromosomes separate in Anaphase I, the daughter cells are haploid.
+
+57.
+Which of these is a known trigger for the 'p53' protein to initiate apoptosis?
+
+A.
+Irreparable DNA damage.
+
+Das stimmt.
+p53 monitors DNA integrity and triggers death if the damage cannot be fixed.
+
+B.
+Formation of a Barr body.
+
+C.
+Excessive protein synthesis.
+
+D.
+Entering the G0 phase.
+
+
+58.
+What is the function of the 'Satellite' DNA often found in constitutive heterochromatin?
+
+A.
+Manufactures ribosomal subunits.
+
+Nicht ganz
+This happens in the nucleolus (rDNA).
+
+B.
+Regulates the cell cycle directly.
+
+C.
+Provides structural stability to centromeres and telomeres.
+
+Richtige Antwort
+Highly repetitive satellite DNA is crucial for chromosome structure and protection.
+
+D.
+Codes for cytoplasmic enzymes.
+
+
+59.
+If a question asks 'Where are ribosomes assembled?', the most precise nuclear answer is:
+
+A.
+The nucleoplasm.
+
+B.
+The nuclear pore complex.
+
+C.
+The granular component of the nucleolus.
+
+Das stimmt.
+The 'Pars Granulosa' is the specific site of ribosomal subunit assembly.
+
+D.
+The outer nuclear membrane.
+
+60.
+Which of the following is an example of 'Facultative Heterochromatin'?
+
+A.
+The Barr body in female cells.
+
+Das stimmt.
+The Barr body is an X chromosome that is inactive in some cells but could be active in others (e.g., germ cells).
+
+B.
+Euchromatin.
+
+C.
+Centromeres.
+
+D.
+Telomeres.
