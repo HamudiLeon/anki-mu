@@ -4,7 +4,7 @@
     <span class="spacer"></span>
     <span class="mode">ANSWER</span>
   </div>
-
+<div class="timeRow" id="timeRowBack"></div>
   <div class="stem">{{Question}}</div>
 
   <div id="correctKeyBack" class="sr">{{Correct}}</div>
@@ -164,4 +164,52 @@ const correctOptText =
   // cleanup
   try { sessionStorage.removeItem("mcq_choice"); } catch(e) {}
 })();
+
+(function(){
+  function msToSec(ms){ return (ms/1000).toFixed(1); }
+
+  const el = document.getElementById("timeRowBack");
+  if (!el) return;
+
+  let elapsed = null, remaining = null, limit = null;
+
+  try {
+    elapsed = parseInt(sessionStorage.getItem("mcq_tp_elapsed") || "", 10);
+    remaining = parseInt(sessionStorage.getItem("mcq_tp_remaining") || "", 10);
+    limit = parseInt(sessionStorage.getItem("mcq_tp_limit") || "", 10);
+  } catch(e) {}
+
+  if (!Number.isFinite(elapsed) || !Number.isFinite(limit) || limit <= 0) {
+    el.textContent = "";
+    return;
+  }
+
+  const ratio = Math.min(1, Math.max(0, elapsed / limit)); // 0..1
+  el.classList.remove("speed-fast","speed-mid","speed-slow","speed-danger");
+
+  // thresholds (tuned for 30s): fast < 40%, mid < 65%, slow < 85%, else danger
+  if (ratio < 0.40) el.classList.add("speed-fast");
+  else if (ratio < 0.65) el.classList.add("speed-mid");
+  else if (ratio < 0.85) el.classList.add("speed-slow");
+  else el.classList.add("speed-danger");
+
+  const elapsedS = msToSec(elapsed);
+  const remainS = Number.isFinite(remaining) ? msToSec(Math.max(0, remaining)) : null;
+  const limitS  = msToSec(limit);
+
+  if (remainS) {
+    el.innerHTML = `<b>Time to commit:</b> ${elapsedS}s <span style="color:rgba(0,0,0,0.45)">(remaining: ${remainS}s of ${limitS}s)</span>`;
+  } else {
+    el.innerHTML = `<b>Time to commit:</b> ${elapsedS}s <span style="color:rgba(0,0,0,0.45)">(of ${limitS}s)</span>`;
+  }
+
+  // cleanup
+  try {
+    sessionStorage.removeItem("mcq_tp_start");
+    sessionStorage.removeItem("mcq_tp_elapsed");
+    sessionStorage.removeItem("mcq_tp_remaining");
+    sessionStorage.removeItem("mcq_tp_limit");
+  } catch(e) {}
+})();
+
 </script>

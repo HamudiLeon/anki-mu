@@ -25,15 +25,19 @@
   transform: scaleX(1);
   transition: transform linear;
 
-  /* LIGHT → WARNING → DANGER (correct direction) */
-  background: linear-gradient(
-    90deg,
-    #e8f2ff 0%,     /* very light blue (calm) */
-    #bfdbfe 30%,    /* soft blue */
-    #fde68a 65%,    /* soft yellow (warning) */
-    #fca5a5 85%,    /* soft red */
-    #ef4444 100%    /* danger red */
-  );
+/* LIGHT → WARNING → DANGER (correct direction) */
+background: linear-gradient(90deg,
+	#e8f2ff 0%,
+	/* very light blue (calm) */
+	#bfdbfe 30%,
+	/* soft blue */
+	#fde68a 65%,
+	/* soft yellow (warning) */
+	#fca5a5 85%,
+	/* soft red */
+	#ef4444 100%
+	/* danger red */
+);
 
   box-shadow:
     inset 0 0 0 1px rgba(255,255,255,0.35),
@@ -129,7 +133,16 @@
 </div>
 
 <script>
+
+
 (function() {
+
+// === Time-to-commit tracking ===
+const TP_LIMIT_MS = 30000; // keep in sync with LIMIT_MS
+const tpStart = Date.now();
+try { sessionStorage.setItem("mcq_tp_start", String(tpStart)); } catch(e) {}
+
+
   function normalizeCorrect(raw) {
     raw = (raw || "").trim();
     if (!raw) return "";
@@ -281,6 +294,14 @@ form.addEventListener("change", onChoice);
     }
 
     try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
+// store time-to-commit (ms) + remaining time (ms)
+try {
+  const elapsed = Date.now() - tpStart;
+  sessionStorage.setItem("mcq_tp_elapsed", String(elapsed));
+  sessionStorage.setItem("mcq_tp_remaining", String(Math.max(0, TP_LIMIT_MS - elapsed)));
+  sessionStorage.setItem("mcq_tp_limit", String(TP_LIMIT_MS));
+} catch(e) {}
+
     setTimeout(showAnswer, 250);
   });
 
