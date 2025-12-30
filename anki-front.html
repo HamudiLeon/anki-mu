@@ -1,3 +1,85 @@
+<style>
+
+/* ===== Time-pressure bar (MU-Varna light theme) ===== */
+.timerBar{
+  height: 7px;
+  border-radius: 999px;
+  background: linear-gradient(
+    180deg,
+    rgba(0,0,0,0.04),
+    rgba(0,0,0,0.08)
+  );
+  overflow: hidden;
+  margin: 10px 0 12px;
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.55),
+    0 1px 2px rgba(0,0,0,0.08);
+}
+
+.timerBar .fill{
+  height: 100%;
+  width: 100%;
+
+  /* critical for JS animation */
+  transform-origin: left center;
+  transform: scaleX(1);
+  transition: transform linear;
+
+  /* LIGHT → WARNING → DANGER (correct direction) */
+  background: linear-gradient(
+    90deg,
+    #e8f2ff 0%,     /* very light blue (calm) */
+    #bfdbfe 30%,    /* soft blue */
+    #fde68a 65%,    /* soft yellow (warning) */
+    #fca5a5 85%,    /* soft red */
+    #ef4444 100%    /* danger red */
+  );
+
+  box-shadow:
+    inset 0 0 0 1px rgba(255,255,255,0.35),
+    0 1px 3px rgba(0,0,0,0.10);
+}
+
+.timerText{
+  font-size: 0.85em;
+  color: rgba(0,0,0,0.60);
+  margin-top: -6px;
+  margin-bottom: 8px;
+}
+
+/* ===== Time-over state ===== */
+.timerBar.warn{
+  background: linear-gradient(
+    180deg,
+    rgba(255,120,0,0.10),
+    rgba(255,60,0,0.08)
+  );
+  box-shadow:
+    inset 0 0 0 1px rgba(255,120,0,0.22),
+    0 2px 6px rgba(255,80,0,0.14);
+}
+
+.timerText.warn{
+  color: rgba(200,70,0,0.92);
+  font-weight: 600;
+}
+
+/* ===== Option focus / fade ===== */
+.rOpt.tp-fade{
+  opacity: 0.60;
+  transition: opacity 220ms ease;
+}
+
+.rOpt.tp-focus{
+  opacity: 1 !important;
+  box-shadow:
+    0 0 0 2px rgba(59,130,246,0.22) inset,
+    0 2px 6px rgba(59,130,246,0.10);
+  transform: translateY(-1px);
+}
+
+
+</style>
 <div class="mcq">
   <div class="topbar">
     <span class="tag">MU-VARNA-MCQ</span>
@@ -6,6 +88,7 @@
   </div>
 
   <div class="stem">{{Question}}</div>
+ <div class="timerBar" id="tpBar" aria-hidden="true"><div class="fill" id="tpFill"></div></div> <div class="timerText" id="tpText">Time pressure: 30s to commit.</div>
 
   <div id="correctKey" class="sr">{{Correct}}</div>
 
@@ -55,11 +138,8 @@
   }
 
   function showAnswer() {
-    // Desktop / iOS
     if (typeof pycmd !== "undefined") { pycmd("ans"); return; }
-    // Some environments
     if (typeof anki !== "undefined" && anki.showAnswer) { anki.showAnswer(); return; }
-    // Fallback: do nothing (user can still flip)
   }
 
   const correctRaw = document.getElementById("correctKey")?.textContent || "";
@@ -79,26 +159,119 @@
     status.textContent = "";
   }
 
- form.addEventListener("change", function() {
-  clearMarks();
+  form.addEventListener("change", function() {
+    clearMarks();
+    const chosen = getSelected();
+    if (!chosen) return;
+    try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
+    const label = form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt");
+    if (label) label.classList.add("pick");
+  });
+
+// === NEW: Time-Pressure Simulation (3s) ===
+(function timePressure() {
+const LIMIT_MS = 30000; // set to 2000–5000 depending on how strict you want
+const FADE_CLASS = "tp-fade";
+const FOCUS_CLASS = "tp-focus";
+
+const bar = document.getElementById("tpBar");
+const fill = document.getElementById("tpFill");
+const text = document.getElementById("tpText");
+
+const opts = Array.from(form.querySelectorAll(".rOpt"));
+if (!opts.length) return;
+
+// Animate the bar: scaleX from 1 -> 0 in LIMIT_MS
+if (fill) {
+  // trigger transition reliably
+  fill.style.transitionDuration = LIMIT_MS + "ms";
+  requestAnimationFrame(() => {
+    fill.style.transform = "scaleX(0)";
+  });
+}
+
+let fired = false;
+
+function applyFade() {
+  if (fired) return;
+  fired = true;
+
+  // === NEW: visual warning state ===
+  if (bar) bar.classList.add("warn");
+  if (text) {
+    text.classList.add("warn");
+    text.textContent = "Time over — commit immediately.";
+  }
+
   const chosen = getSelected();
-  if (!chosen) return;
-  try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
-  const label = form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt");
-  if (label) label.classList.add("pick");
+
+  // If nothing chosen: fade all
+  if (!chosen) {
+    opts.forEach(o => o.classList.add(FADE_CLASS));
+    return;
+  }
+
+  // If chosen: fade others, focus selected
+  opts.forEach(o => o.classList.add(FADE_CLASS));
+
+  const chosenLabel =
+    form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt");
+
+  if (chosenLabel) {
+    chosenLabel.classList.remove(FADE_CLASS);
+    chosenLabel.classList.add(FOCUS_CLASS);
+  }
+}
+
+
+// When user changes selection, keep UI consistent with time-pressure state
+function onChoice() {
+  const chosen = getSelected();
+
+  // If timer not yet fired: do nothing special
+  if (!fired) return;
+
+  // Timer already fired → update fade/focus
+  opts.forEach(o => o.classList.add(FADE_CLASS));
+  opts.forEach(o => o.classList.remove(FOCUS_CLASS));
+
+  const chosenLabel = chosen
+    ? form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt")
+    : null;
+
+  if (chosenLabel) {
+    chosenLabel.classList.remove(FADE_CLASS);
+    chosenLabel.classList.add(FOCUS_CLASS);
+  }
+}
+
+// Fire after LIMIT_MS
+const t = setTimeout(applyFade, LIMIT_MS);
+
+// If the user checks before timeout, stop the pressure (optional)
+checkBtn.addEventListener("click", function() {
+  clearTimeout(t);
+  // optionally: keep the committed focus instead of removing
+  // opts.forEach(o => o.classList.remove(FADE_CLASS, FOCUS_CLASS));
+  if (text) text.textContent = "Checked.";
 });
+
+form.addEventListener("change", onChoice);
+
+
+})();
 
   checkBtn.addEventListener("click", function() {
     if (!correct) { status.textContent = "Correct key missing."; return; }
     const chosen = getSelected();
-     
     if (!chosen) { status.textContent = "Select an option first."; return; }
+
     const chosenLabel = form.querySelector('input[value="'+chosen+'"]')?.closest(".rOpt");
     const trueLabel = form.querySelector('input[value="'+correct+'"]')?.closest(".rOpt");
 
-    // Visual feedback briefly on the front
     form.querySelectorAll(".rOpt").forEach(l => l.classList.add("dim"));
     if (trueLabel) trueLabel.classList.remove("dim"), trueLabel.classList.add("true");
+
     if (chosen === correct) {
       if (chosenLabel) chosenLabel.classList.add("ok");
       status.textContent = "Correct.";
@@ -106,10 +279,26 @@
       if (chosenLabel) chosenLabel.classList.add("no");
       status.textContent = "Wrong.";
     }
-    try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
 
-    // Auto-flip shortly after feedback
+    try { sessionStorage.setItem("mcq_choice", chosen); } catch(e) {}
     setTimeout(showAnswer, 250);
+  });
+
+  // === NEW: double-click on an option = check immediately ===
+  form.querySelectorAll(".rOpt").forEach(label => {
+    label.addEventListener("dblclick", function(ev) {
+      ev.preventDefault();
+
+      // ensure the option becomes selected
+      const input = label.querySelector('input[name="ans"]');
+      if (input && !input.checked) {
+        input.checked = true;
+        input.dispatchEvent(new Event("change", { bubbles: true }));
+      }
+
+      // run the same evaluation logic
+      checkBtn.click();
+    });
   });
 })();
 </script>

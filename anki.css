@@ -309,14 +309,15 @@
 .why li::marker{ color: rgba(37,99,235,.75); }
 
 .why b{
-  display:block;
-  margin-top: 10px;
-  margin-bottom: 4px;
-  font-size: 13px;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  color: rgba(37,99,235,.92);
+  display:inline;
+  margin: 0;
+  font-size: 1em;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 700;
+  color: rgba(22,163,74,.92);
 }
+
 
 .why em{
   color: rgba(22,163,74,.92);
@@ -361,6 +362,56 @@
   border: 1px solid rgba(37,99,235,.22);
   color: rgba(37,99,235,.9);
 }
+.visual-link {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background: #f4f8ff;
+  border-left: 3px solid #6b9cff;
+  font-size: 0.95em;
+}
+.exam-trap {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: #fff5f5;
+  border-left: 3px solid #ff6b6b;
+  font-size: 0.95em;
+}
+/* ===== Explanation (Why) – soft green refinement ===== */
+.why{
+  margin-top: 14px;
+  padding: 16px 18px;
+  border-radius: 12px;
+
+  border: 1px dashed rgba(22,163,74,.22);          /* soft green dash */
+  border-left: 3px solid rgba(22,163,74,.45);      /* clear but calm */
+
+  background:
+    radial-gradient(
+      120% 100% at 0% 0%,
+      rgba(22,163,74,.08),
+      rgba(255,255,255,0) 70%
+    ),
+    rgba(22,163,74,.035);                          /* faint green wash */
+
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: rgba(15,23,42,.78);
+}
+
+.why b{
+  color: rgba(22,163,74,.92);
+}
+
+.why li::marker{ color: rgba(22,163,74,.75); }
 
 
-
+.why-title{
+  display:block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 13px;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(22,163,74,.92);
+}

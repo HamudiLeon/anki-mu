@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MU-Varna Cytology — Epithelial Tissue (Exam-Perfect Summary)</title>
+  <style>
+    :root{
+      /* Contemporary Learning palette (teal / orange / soft green) */
+      --bg:#F6F7FB;
+      --paper:#FFFFFF;
+      --paper2:#FBFCFF;
+      --ink:#1F2937;
+      --muted:#4B5563;
+      --line:#E6EAF2;
+
+      --teal:#5FA7A3;
+      --orange:#E47C32;
+      --green:#BFD9A7;
+
+      --tealSoft:rgba(95,167,163,.14);
+      --orangeSoft:rgba(228,124,50,.14);
+      --greenSoft:rgba(191,217,167,.22);
+
+      --shadow:0 10px 30px rgba(31,41,55,.08);
+      --mono:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+      --sans:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;
+      --radius:16px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:var(--sans);}
+    .wrap{max-width:1120px;margin:0 auto;padding:26px 18px 70px}
+    h1{margin:0;font-size:28px;letter-spacing:.2px}
+    h2{margin:0;font-size:18px}
+    h3{margin:0;font-size:15px}
+    p{margin:10px 0;color:var(--muted);line-height:1.55}
+    ul{margin:8px 0 0 18px;padding:0}
+    li{margin:6px 0;line-height:1.55}
+    .mono{font-family:var(--mono)}
+    .k{font-weight:700;color:var(--ink)}
+    .hr{height:1px;background:var(--line);margin:12px 0}
+
+    /* Header */
+    .header{display:flex;gap:14px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+    .title p{max-width:90ch}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--paper);box-shadow:0 1px 0 rgba(31,41,55,.04);font-size:12px}
+    .dot{width:10px;height:10px;border-radius:999px}
+    .dot.teal{background:var(--teal)}
+    .dot.orange{background:var(--orange)}
+    .dot.green{background:var(--green)}
+
+    /* Cards */
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;margin:14px 0}
+    .card.soft{background:var(--paper2)}
+    .grid{display:grid;gap:14px}
+    @media(min-width:980px){.grid.two{grid-template-columns:1fr 1fr}}
+
+    /* Section header line */
+    .secHead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+    .mini{color:var(--muted);font-size:12px}
+
+    /* Callouts */
+    .callout{border-radius:14px;padding:12px;border:1px solid var(--line);background:var(--paper)}
+    .callout.teal{border-left:6px solid var(--teal);background:linear-gradient(180deg,var(--tealSoft),transparent)}
+    .callout.orange{border-left:6px solid var(--orange);background:linear-gradient(180deg,var(--orangeSoft),transparent)}
+    .callout.green{border-left:6px solid var(--green);background:linear-gradient(180deg,var(--greenSoft),transparent)}
+    .callout b{color:var(--ink)}
+    .callout p{margin:8px 0 0}
+
+    /* Exam trap */
+    .trap{border-radius:14px;padding:12px;border:1px dashed rgba(228,124,50,.55);background:linear-gradient(180deg,rgba(228,124,50,.10),transparent)}
+    .trap .label{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:800;color:var(--ink)}
+    .trap .label .dot{background:var(--orange)}
+    .trap ul{margin-top:10px}
+
+    /* Tables */
+    table{width:100%;border-collapse:separate;border-spacing:0;overflow:hidden;border-radius:14px;border:1px solid var(--line);background:var(--paper);margin:12px 0}
+    th,td{padding:10px 10px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+    th{background:linear-gradient(180deg,rgba(95,167,163,.12),transparent);text-align:left;color:var(--ink);font-size:13px}
+    tr:last-child td{border-bottom:none}
+
+    /* Pills */
+    .pill{display:inline-block;padding:2px 10px;border-radius:999px;border:1px solid var(--line);background:var(--paper);font-size:12px;color:var(--muted)}
+
+    /* Small footer */
+    .foot{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.45}
+
+@media print {
+  @page { size: A4; margin: 14mm 14mm 16mm 14mm; }
+  html, body{ background:#fff !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .wrap{ max-width:none !important; margin:0 !important; padding:0 !important; }
+  .badges{display:none !important;}
+  .card{ box-shadow:none !important; break-inside:avoid; page-break-inside:avoid; }
+  .chapter{ break-before:page; page-break-before:always; }
+  h2, h3{ break-after:avoid; page-break-after:avoid; }
+  h2 + p, h2 + ul, h2 + table, h3 + p, h3 + ul, h3 + table{ break-before:avoid; page-break-before:avoid; }
+  .callout, .trap{ break-inside:avoid; page-break-inside:avoid; }
+  thead{display: table-header-group;}
+  tfoot{display: table-footer-group;}
+  tr, td, th{ break-inside:avoid; page-break-inside:avoid; }
+  .card{ margin:0 0 10px 0 !important; }
+  .hr{ margin:8px 0 !important; }
+  p, li, td{ line-height:1.35 !important; }
+  a{ text-decoration:none !important; }
+  p, li{ orphans:3; widows:3; }
+}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="header">
+      <div class="title">
+        <h1>MU-Varna Cytology • EPITHELIAL TISSUE</h1>
+        <p>
+          Exam-perfect chapter summary aligned to MU-Varna Cytology exam logic and audited against the epithelial-related questions in your pool.
+          Focus: classification rules, basement membrane, junction-to-cytoskeleton mapping, apical specializations, glandular epithelium axes, and classic “EXCEPT” traps.
+        </p>
+      </div>
+      <div class="badges" aria-label="Legend">
+        <span class="badge"><span class="dot teal"></span>Concept &amp; mechanism</span>
+        <span class="badge"><span class="dot orange"></span>MU-Varna exam traps</span>
+        <span class="badge"><span class="dot green"></span>Clinical relevance</span>
+      </div>
+    </div>
+
+    <div class="card soft">
+      <div class="secHead">
+        <h2>How to avoid losing points</h2>
+        <span class="mini">Use this on every epithelial MCQ</span>
+      </div>
+      <div class="hr"></div>
+      <div class="grid two">
+        <div class="callout teal">
+          <b>Classification-first answering</b>
+          <p>
+            Always classify by: <span class="k">number of layers</span> → <span class="k">shape of surface cells</span> → <span class="k">specializations</span>
+            (cilia, microvilli/brush border, keratin, dome “umbrella” cells).
+          </p>
+        </div>
+        <div class="callout orange">
+          <b>EXCEPT pattern (MU-Varna style)</b>
+          <p>
+            The wrong option is usually a <span class="k">true concept placed in the wrong tissue, location, or axis</span>:
+            e.g., “blood vessels pass through basal lamina”, “microtubules in microvilli”, “gap junction linked to cytoskeleton”.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- I -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>I. Core properties of epithelial tissue</h2>
+        <span class="mini">Polarity • avascularity • regeneration</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Definition & organization</h3>
+          <ul>
+            <li>Sheets of <span class="k">closely apposed cells</span> with <span class="k">minimal extracellular matrix</span>.</li>
+            <li>Cover surfaces (covering epithelium) or form secretory units (glandular epithelium).</li>
+            <li><span class="k">Polarity:</span> apical, lateral, and basal domains differ in structure and function.</li>
+            <li>High <span class="k">renewal capacity</span> via basal stem/progenitor cells.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Supply & what epithelium cannot do (tested)</h3>
+          <ul>
+            <li><span class="k">Avascular:</span> no blood vessels within the epithelium itself.</li>
+            <li>Nutrients/oxygen by <span class="k">diffusion</span> from underlying connective tissue.</li>
+            <li><span class="k">Innervation may be present</span> (nerve fibers can penetrate epithelium).</li>
+            <li><span class="k">Not a contractile tissue</span> (EXCEPT trap).</li>
+          </ul>
+
+          <div class="trap" style="margin-top:12px">
+            <div class="label"><span class="dot"></span>MU-VARNA TRAPS</div>
+            <ul>
+              <li>“Epithelial tissue contracts” is <span class="k">FALSE</span>.</li>
+              <li>“Blood vessels pass through basal lamina into epithelium” is <span class="k">FALSE</span>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- II -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>II. Basement membrane</h2>
+        <span class="mini">Basal lamina • reticular lamina • anchoring</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Composition (exam precision)</h3>
+          <ul>
+            <li><span class="k">Basement membrane</span> = <span class="k">basal lamina</span> + <span class="k">reticular lamina</span>.</li>
+            <li><span class="k">Basal lamina</span> is produced by <span class="k">epithelial cells</span> (key molecules: laminin, type IV collagen).</li>
+            <li><span class="k">Reticular lamina</span> is produced by <span class="k">connective tissue</span> (reticular fibers: type III collagen).</li>
+            <li><span class="k">Type VII collagen</span> forms <span class="k">anchoring fibrils</span> linking the layers.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Functions</h3>
+          <ul>
+            <li>Mechanical support and tissue compartmentalization.</li>
+            <li>Maintains epithelial polarity.</li>
+            <li>Selective filtration (important concept in specialized epithelia).</li>
+            <li>Scaffold for regeneration after injury.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="trap">
+        <div class="label"><span class="dot"></span>EXCEPT TRAP (tested)</div>
+        <ul>
+          <li>Keratinizing stratified squamous epithelium does <span class="k">not</span> have “openings” in basal lamina for blood vessels.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- III -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>III. Cell junctions & cytoskeleton mapping</h2>
+        <span class="mini">Zonula occludens • zonula adherens • desmosomes • hemidesmosomes • focal adhesions • gap junctions</span>
+      </div>
+      <div class="hr"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Junction</th>
+            <th>Type</th>
+            <th>Main proteins</th>
+            <th>Cytoskeleton link (tested)</th>
+            <th>Core function</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Tight junction</b> (zonula occludens)</td>
+            <td>Cell–cell</td>
+            <td>Claudins, occludin</td>
+            <td>—</td>
+            <td>Seal; blocks paracellular flow; polarity barrier</td>
+          </tr>
+          <tr>
+            <td><b>Adherens junction</b> (zonula adherens)</td>
+            <td>Cell–cell</td>
+            <td>Cadherins</td>
+            <td><span class="k">Actin filaments</span></td>
+            <td>Mechanical coupling (“belt”)</td>
+          </tr>
+          <tr>
+            <td><b>Desmosome</b> (macula adherens)</td>
+            <td>Cell–cell</td>
+            <td>Desmoglein/desmocollin</td>
+            <td><span class="k">Intermediate filaments (keratin)</span></td>
+            <td>Strong adhesion (“spot weld”)</td>
+          </tr>
+          <tr>
+            <td><b>Hemidesmosome</b></td>
+            <td>Cell–matrix</td>
+            <td>Integrins</td>
+            <td><span class="k">Intermediate filaments</span></td>
+            <td>Anchors epithelium to basal lamina</td>
+          </tr>
+          <tr>
+            <td><b>Focal adhesion</b></td>
+            <td>Cell–matrix</td>
+            <td>Integrins</td>
+            <td><span class="k">Actin filaments</span></td>
+            <td>Dynamic adhesion, migration, mechanosensing</td>
+          </tr>
+          <tr>
+            <td><b>Gap junction</b> (nexus)</td>
+            <td>Cell–cell</td>
+            <td>Connexins → connexons</td>
+            <td><span class="k">No cytoskeleton association</span></td>
+            <td>Intercellular communication (ions/small molecules)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="trap">
+        <div class="label"><span class="dot"></span>MU-VARNA “EXCEPT” LOCK</div>
+        <ul>
+          <li>“All junctions are associated with the cytoskeleton EXCEPT …” → <span class="k">Gap junction (nexus)</span>.</li>
+          <li>“Which junction allows easiest passage from cell to cell?” → <span class="k">Gap junction</span>.</li>
+          <li>Hemidesmosomes are situated in the <span class="k">basal area</span> of epithelial cells.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- IV -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>IV. Apical specializations</h2>
+        <span class="mini">Microvilli • brush border • stereocilia • cilia • axoneme (9+2)</span>
+      </div>
+      <div class="hr"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Specialization</th>
+            <th>Cytoskeleton</th>
+            <th>Function</th>
+            <th>High-yield location</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Microvilli</b></td>
+            <td><span class="k">Actin</span></td>
+            <td>Increase surface area (absorption)</td>
+            <td>Intestinal epithelium; kidney proximal tubules</td>
+          </tr>
+          <tr>
+            <td><b>Brush border</b> (LM equivalent)</td>
+            <td><span class="k">Microvilli</span></td>
+            <td>Light microscope appearance of dense microvilli</td>
+            <td>Enterocytes</td>
+          </tr>
+          <tr>
+            <td><b>Stereocilia</b></td>
+            <td><span class="k">Actin</span></td>
+            <td>Absorption/sensory; long microvilli-like</td>
+            <td>Epididymis</td>
+          </tr>
+          <tr>
+            <td><b>Cilia</b></td>
+            <td><span class="k">Microtubules</span> (axoneme 9+2)</td>
+            <td>Motile transport of fluid/mucus</td>
+            <td>Trachea/respiratory epithelium</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="grid two">
+        <div class="trap">
+          <div class="label"><span class="dot"></span>LOCALIZATION TRAP (tested)</div>
+          <ul>
+            <li>Microtubules can be localized in <span class="k">cytosol</span>, <span class="k">centrosomes</span>, <span class="k">cilia</span>, <span class="k">flagella</span> — but <span class="k">not</span> in microvilli.</li>
+          </ul>
+        </div>
+        <div class="callout green">
+          <b>Clinical anchor</b>
+          <p>
+            A genetic defect of the motor protein <span class="k">dynein</span> (cilia) is linked to <span class="k">Kartagener syndrome</span>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- V -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>V. Classification of covering epithelium</h2>
+        <span class="mini">Simple • stratified • pseudostratified • transitional</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="callout teal">
+        <b>Rule (must memorize)</b>
+        <p>Epithelium is classified by <span class="k">number of layers</span> and <span class="k">shape of surface cells</span> (not basal cells).</p>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Definition</th>
+            <th>High-yield location</th>
+            <th>Main function</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Simple squamous</b></td>
+            <td>One layer of flat cells</td>
+            <td>Endothelium, mesothelium, alveoli</td>
+            <td>Diffusion/filtration</td>
+          </tr>
+          <tr>
+            <td><b>Simple cuboidal</b></td>
+            <td>One layer of cube cells</td>
+            <td>Kidney tubules, ducts, thyroid follicles</td>
+            <td>Secretion/absorption</td>
+          </tr>
+          <tr>
+            <td><b>Simple columnar</b></td>
+            <td>One layer of tall cells</td>
+            <td>Intestine (resorptive epithelium)</td>
+            <td>Absorption/secretion</td>
+          </tr>
+          <tr>
+            <td><b>Pseudostratified ciliated columnar</b></td>
+            <td>All cells touch basal lamina; nuclei at different heights</td>
+            <td>Trachea</td>
+            <td>Mucociliary clearance</td>
+          </tr>
+          <tr>
+            <td><b>Stratified squamous (non-keratinized)</b></td>
+            <td>Many layers; surface squamous; no keratin</td>
+            <td>Oral cavity, esophagus</td>
+            <td>Protection from abrasion</td>
+          </tr>
+          <tr>
+            <td><b>Stratified squamous (keratinized)</b></td>
+            <td>Surface anuclear keratin layer</td>
+            <td>Epidermis</td>
+            <td>Protection + water barrier</td>
+          </tr>
+          <tr>
+            <td><b>Transitional</b> (urothelium)</td>
+            <td>Special stratified epithelium with dome surface cells</td>
+            <td>Urinary system (kidney pelvis, ureter, bladder, urethra)</td>
+            <td>Stretch/distension</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="grid two">
+        <div class="trap">
+          <div class="label"><span class="dot"></span>BIG MU-VARNA TRAP</div>
+          <ul>
+            <li>“Which statement about stratified epithelium is TRUE?” → <span class="k">None of the answers are true</span> (common exam format).</li>
+            <li>Pseudostratified epithelium is <span class="k">not</span> stratified (it is <span class="k">simple</span>).</li>
+          </ul>
+        </div>
+        <div class="callout orange">
+          <b>Transitional epithelium (tested phrases)</b>
+          <p>
+            Found only in <span class="k">urinary system</span>, adapts to <span class="k">stretch</span>, outermost layer has <span class="k">dome-shaped</span> cells.
+          </p>
+        </div>
+      </div>
+
+      <div class="trap">
+        <div class="label"><span class="dot"></span>LOCATION FACT (tested)</div>
+        <ul>
+          <li>Stratified cuboidal epithelium is found in <span class="k">larger ducts of exocrine glands</span>.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- VI -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>VI. Glandular epithelium (3 independent classification axes)</h2>
+        <span class="mini">Destination • number of cells • secretory product • secretion mechanism • duct architecture</span>
+      </div>
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div class="callout teal">
+          <b>Axis 1: Destination of secretion</b>
+          <ul>
+            <li><span class="k">Exocrine:</span> via ducts to a surface/lumen.</li>
+            <li><span class="k">Endocrine:</span> directly into <span class="k">blood</span> (no ducts).</li>
+            <li><span class="k">Mixed:</span> both endocrine + exocrine (e.g., pancreas).</li>
+          </ul>
+        </div>
+
+        <div class="callout teal">
+          <b>Axis 2: Number of cells</b>
+          <ul>
+            <li><span class="k">Unicellular</span> (e.g., goblet cell).</li>
+            <li><span class="k">Multicellular</span>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Axis 3: Secretory product (exocrine)</h3>
+          <ul>
+            <li><span class="k">Serous</span> (watery, protein-rich).</li>
+            <li><span class="k">Mucous</span> (mucins, viscous).</li>
+            <li><span class="k">Mixed</span> (serous + mucous).</li>
+          </ul>
+
+          <div class="trap" style="margin-top:12px">
+            <div class="label"><span class="dot"></span>EXAM ANCHOR</div>
+            <ul>
+              <li><span class="k">Giannuzzi demilunes</span> are typical for <span class="k">mixed acini</span>.</li>
+              <li>“Purely serous gland” (tested example) → <span class="k">Lacrimal gland</span>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Axis 4: Mode of secretion</h3>
+          <ul>
+            <li><span class="k">Merocrine:</span> via exocytosis.</li>
+            <li><span class="k">Apocrine:</span> apical cytoplasm loss with secretion.</li>
+            <li><span class="k">Holocrine:</span> whole secretory cell is released.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hr"></div>
+
+      <div class="grid two">
+        <div>
+          <h3>Duct architecture (exocrine)</h3>
+          <ul>
+            <li><span class="k">Simple glands:</span> unbranched duct.</li>
+            <li><span class="k">Compound glands:</span> branched duct system.</li>
+          </ul>
+          <div class="trap" style="margin-top:12px">
+            <div class="label"><span class="dot"></span>TESTED PHRASE</div>
+            <ul>
+              <li>Compound glands have a <span class="k">branched system of main “exit” ducts</span>.</li>
+              <li>Intraepithelial glands are <span class="k">exocrine</span>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3>Shape of secretory portion</h3>
+          <ul>
+            <li><span class="k">Tubular</span>, <span class="k">acinar (alveolar)</span>, <span class="k">tubuloacinar</span>.</li>
+          </ul>
+          <div class="trap" style="margin-top:12px">
+            <div class="label"><span class="dot"></span>TESTED WORDING</div>
+            <ul>
+              <li>“According to the shape of the secretory portion …” → <span class="k">acinar</span> is a key category.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="callout orange" style="margin-top:12px">
+        <b>Endocrine cells — where the secretory product goes</b>
+        <p>
+          In endocrine glands, the secretory product is released <span class="k">directly into the blood</span> (no ducts).
+        </p>
+      </div>
+    </div>
+
+    <!-- VII -->
+    <div class="card chapter">
+      <div class="secHead">
+        <h2>VII. Embryologic origin of epithelia (high-yield mapping)</h2>
+        <span class="mini">Endoderm • ectoderm • mesoderm</span>
+      </div>
+      <div class="hr"></div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Germ layer</th>
+            <th>High-yield epithelial derivatives (tested patterns)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Endoderm</b></td>
+            <td>Epithelium of GI tract, liver, pancreas, lungs; thyroid epithelium</td>
+          </tr>
+          <tr>
+            <td><b>Surface ectoderm</b></td>
+            <td>Epidermis; hair, nails, cutaneous glands</td>
+          </tr>
+          <tr>
+            <td><b>Intermediate mesoderm</b></td>
+            <td>Urogenital epithelium</td>
+          </tr>
+          <tr>
+            <td><b>Somatopleuric lateral plate mesoderm</b></td>
+            <td>Serous membranes: pleura, pericardium, peritoneum</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="foot">
+      <b>Audit note:</b> This summary is source-locked to your chapter material and explicitly completed using the epithelial-related MU-Varna question patterns in your pool (junction mapping, stratified “NONE true” trap, basal lamina blood vessel trap, gland axes, and germ-layer epithelial origins).
+    </div>
+
+  </div>
+</body>
+</html>
